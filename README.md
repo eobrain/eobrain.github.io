@@ -1,4 +1,8 @@
-eobrain.github.io
+Source for personal web site
 =================
 
-Source for personal web site hosted at http://eobrain.github.io/
+Hosted at http://eobrain.github.io/
+
+Uses [Glan] [gh]
+
+[gh]: https://github.com/eobrain/glan#readme
