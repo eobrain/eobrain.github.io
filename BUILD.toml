@@ -12,3 +12,7 @@ exec="node html2js instances.html > $@"
 
 ["instances.html"]
 exec="wget https://mastodon.fediverse.observer/app/views/tabledata.php?software=mastodon -O $@"
+
+[publish]
+deps=["all.html"]
+exec="git add all.html && git commit -m \"Automatic update by $USER on `hostname`\" && git push"
