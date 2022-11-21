@@ -1,8 +1,0 @@
-Glan
-====
-
-Glan (Irish for "clean", pronounced /_glawn_/) is an extremely simple
-way to build a very fast, secure web site.
-
-Use it when you don't need the advanced features of a CMS such as
-Drupal or Wordpress.
