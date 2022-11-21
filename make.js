@@ -7,7 +7,12 @@ async function wikipedia (name) {
   try {
     const result = await fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&srlimit=20&srsearch=${name}`)
     const json = await result.json()
-    return json.query.search[0].title
+    const query = json.query
+    if (query.searchinfo.totalhits < 3) {
+      // Too few results to be reliable
+      return ''
+    }
+    return query.search[0].title
   } catch (e) {
     return ''
   }
