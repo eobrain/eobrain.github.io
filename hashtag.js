@@ -2,6 +2,8 @@ import PQueue from 'p-queue'
 import smoothish from 'smoothish'
 import instances from './instances.js'
 
+const TOP_COUNT = 50
+
 // const instances = iii.slice(1000, 1100)
 instances.sort()
 
@@ -49,7 +51,7 @@ await Promise.all(promises)
 const hashtagList = Object.values(hashtagMap)
 hashtagList.sort((a, b) => b.increase - a.increase)
 
-const rows = hashtagList.slice(0, 20).map(row =>
+const rows = hashtagList.slice(0, TOP_COUNT).map(row =>
     `{ name: '${row.name}', increase: ${row.increase} },`).join('\n')
 console.log(`
   export default {
