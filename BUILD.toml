@@ -16,3 +16,6 @@ exec="wget https://mastodon.fediverse.observer/app/views/tabledata.php?software=
 [publish]
 deps=["all.html"]
 exec="git add all.html && git commit -m \"Automatic update by $USER on `hostname`\" && git push"
+
+[clean]
+exec="rm -f instances.html instances.js trending.js all.html"

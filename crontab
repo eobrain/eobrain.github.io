@@ -1,1 +1,1 @@
-0 * * * * cd /home/eob/src/eobrain.github.io && PATH=/home/eob/.nvm/versions/node/v`cat .nvmrc`/bin:$PATH && npx bajel -n publish
+0 * * * * cd /home/eob/src/eobrain.github.io && PATH=/home/eob/.nvm/versions/node/v`cat .nvmrc`/bin:$PATH && npx bajel clean && npx bajel publish
