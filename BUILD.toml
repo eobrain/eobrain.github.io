@@ -1,0 +1,3 @@
+["all.html"]
+deps=["trending.js", "make.js"]
+exec="node make.js >$@"
