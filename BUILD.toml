@@ -1,3 +1,14 @@
 ["all.html"]
 deps=["trending.js", "make.js"]
-exec="node make.js >$@"
+exec="node make.js > $@"
+
+["trending.js"]
+deps=["hashtag.js", "instances.js"]
+exec="node hashtag.js > $@"
+
+["instances.js"]
+deps=["instances.html","html2js.js"]
+exec="node html2js instances.html > $@"
+
+["instances.html"]
+exec="wget https://mastodon.fediverse.observer/app/views/tabledata.php?software=mastodon -O $@"
