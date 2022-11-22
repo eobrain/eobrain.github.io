@@ -1,10 +1,10 @@
 import PQueue from 'p-queue'
 import smoothish from 'smoothish'
-import instances from './instances.js'
+import iii from './instances.js'
 
 const TOP_COUNT = 50
 
-// const instances = iii.slice(1000, 1100)
+const instances = iii.slice(1000, 1100)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 100 })
@@ -17,6 +17,15 @@ const hashtagMap = {}
 // const today = Math.trunc(Date.now() / (DAY * 1000)) * DAY
 
 const promises = []
+
+function addToHashTagMap (hashtagMap, name, increase) {
+  if (name in hashtagMap) {
+    const entry = hashtagMap[name]
+    entry.increase += increase
+  } else {
+    hashtagMap[name] = { name, increase }
+  }
+}
 
 for (const instance of instances) {
   const promise = queue.add(async () => {
@@ -33,12 +42,7 @@ for (const instance of instances) {
         const usesArray = history.slice(1).map(h => h.uses)
         const smoothed = smoothish(usesArray)
         const increase = smoothed[0] - smoothed[1]
-        if (name in hashtagMap) {
-          const entry = hashtagMap[name]
-          entry.increase += increase
-        } else {
-          hashtagMap[name] = { name, increase }
-        }
+        addToHashTagMap(hashtagMap, name, increase)
       }
     } catch (e) {
     }
