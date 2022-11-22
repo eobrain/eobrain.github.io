@@ -9,7 +9,7 @@ for (let i = 0; i < all.length; ++i) {
   const { name, increase } = all[i]
   const style = `height:1em;width:${20 * increase / max}vw`
   const row = tr(
-    td(`${i}`),
+    td(`${i + 1}`),
     td(
       img({ src: blackPixel, style })),
     td(a(
