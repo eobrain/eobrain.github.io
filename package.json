@@ -5,6 +5,7 @@
     "ez-html-elements": "^1.0.1",
     "htmlparser2": "^8.0.1",
     "p-queue": "^7.3.0",
+    "passprint": "^0.0.1",
     "smoothish": "^1.0.0"
   }
 }

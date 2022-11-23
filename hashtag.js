@@ -1,10 +1,13 @@
 import PQueue from 'p-queue'
 import smoothish from 'smoothish'
+import fs from 'fs'
+// import { pp } from 'passprint'
+
 import iii from './instances.js'
 
-const TOP_COUNT = 50
+const TOP_COUNT = 5
 
-const instances = iii.slice(1000, 1100)
+const instances = iii // .slice(1000, 1100)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 100 })
@@ -12,7 +15,6 @@ const queue = new PQueue({ concurrency: 100 })
 let count = 0
 const total = instances.length
 
-const hashtagMap = {}
 // const DAY = 24 * 60 * 60
 // const today = Math.trunc(Date.now() / (DAY * 1000)) * DAY
 
@@ -26,6 +28,14 @@ function addToHashTagMap (hashtagMap, name, increase) {
     hashtagMap[name] = { name, increase }
   }
 }
+
+function extractTld (domain) {
+  const split = domain.split('.')
+  return split[split.length - 1]
+}
+
+const hashtagMapAll = {}
+const mapOfMaps = {}
 
 for (const instance of instances) {
   const promise = queue.add(async () => {
@@ -42,7 +52,17 @@ for (const instance of instances) {
         const usesArray = history.slice(1).map(h => h.uses)
         const smoothed = smoothish(usesArray)
         const increase = smoothed[0] - smoothed[1]
-        addToHashTagMap(hashtagMap, name, increase)
+        addToHashTagMap(hashtagMapAll, name, increase)
+
+        const tld = extractTld(instance)
+        if (tld in mapOfMaps) {
+          addToHashTagMap(mapOfMaps[tld].hashtagMap, name, increase)
+        } else {
+          mapOfMaps[tld] = {
+            tld,
+            hashtagMap: { [name]: { name, increase } }
+          }
+        }
       }
     } catch (e) {
     }
@@ -52,15 +72,36 @@ for (const instance of instances) {
 
 await Promise.all(promises)
 
-const hashtagList = Object.values(hashtagMap)
-hashtagList.sort((a, b) => b.increase - a.increase)
+function printTop (tld, hashtagMap) {
+  const hashtagList = Object.values(hashtagMap)
+  hashtagList.sort((a, b) => b.increase - a.increase)
 
-const rows = hashtagList.slice(0, TOP_COUNT).map(row =>
-    `{ name: '${row.name}', increase: ${row.increase} },`).join('\n')
-console.log(`
-  export default {
-    date: ${Date.now()},
-    all: [
-      ${rows}
-    ]
-  }      `)
+  const rows = hashtagList.slice(0, TOP_COUNT)
+
+  fs.writeFile(`tld/${tld}.json`, JSON.stringify(
+    {
+      date: Date.now(),
+      total: hashtagList.length,
+      all: rows
+    }), err => err && console.error(err))
+}
+
+printTop('TOTAL', hashtagMapAll)
+
+const hashtagCount = dict => Object.keys(dict.hashtagMap).length
+
+const listOfMaps = Object.values(mapOfMaps)
+listOfMaps.sort((a, b) => hashtagCount(b) - hashtagCount(a))
+
+const rows = listOfMaps.map(dict => `{tld:"${dict.tld}",hashtagCount:${hashtagCount(dict)}}`).join(',\n')
+fs.writeFile(
+  'tld.js', `
+export default [
+ ${rows}
+]
+`, err => err && console.error(err)
+)
+
+for (const dict of listOfMaps) {
+  printTop(dict.tld, dict.hashtagMap)
+}

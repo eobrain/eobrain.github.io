@@ -1,4 +1,5 @@
 /node_modules
 /instances.html
 /instances.js
-/trending.js
+/tld/*.json
+/tld.js

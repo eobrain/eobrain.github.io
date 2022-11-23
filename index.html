@@ -10,18 +10,13 @@
     <script src="https://unpkg.com/htmx.org@1.8.2"
         integrity="sha384-+8ISc/waZcRdXCLxVgbsLzay31nCdyZXQxnsUy++HJzJliTzxKWr0m1cIEMyUzQu"
         crossorigin="anonymous"></script>
-  </head>
+</head>
 
 <body>
     <header>
         <h1>Mastodon Trending Hashtags</h1>
     </header>
-    <main>
-        <article>
-            <h2>Trending Hashtags</h2>
-            <table hx-get="all.html" hx-trigger="revealed">
-            </table>
-        </article>
+    <main hx-get="content.html" hx-trigger="load">
     </main>
     <footer>
     </footer>
