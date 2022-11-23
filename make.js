@@ -2,7 +2,7 @@ import tldInfos from './tld.js'
 import { tr, td, a, img, article, h2, table } from 'ez-html-elements'
 import fs from 'fs'
 import { readFile } from 'node:fs/promises'
-//import { pp } from 'passprint'
+// import { pp } from 'passprint'
 
 const blackPixel = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII='
 

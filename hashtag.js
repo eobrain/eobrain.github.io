@@ -55,6 +55,9 @@ for (const instance of instances) {
         addToHashTagMap(hashtagMapAll, name, increase)
 
         const tld = extractTld(instance)
+        if (!tld.match(/^[a-z][a-z]+/)) {
+          continue // invalid TLD
+        }
         if (tld in mapOfMaps) {
           addToHashTagMap(mapOfMaps[tld].hashtagMap, name, increase)
         } else {
