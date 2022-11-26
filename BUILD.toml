@@ -4,7 +4,7 @@ exec="node make.js"
 
 ["tld/TOTAL.json"]
 deps=["hashtag.js", "instances.js"]
-exec="node hashtag.js > $@"
+exec="node hashtag.js"
 
 ["instances.js"]
 deps=["instances.html","html2js.js"]
