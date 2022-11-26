@@ -21,16 +21,24 @@ async function writeHtml (jsonFile, header) {
   const max = all[0].increase
   let rows = ''
   for (let i = 0; i < all.length; ++i) {
-    const { name, increase } = all[i]
+    const { name, increase, instance } = all[i]
     const style = `height:1em;width:${20 * increase / max}vw`
     const row = tr(
       td(`${i + 1}`),
       td(
         img({ src: blackPixel, style })),
-      td(a(
-        { href: `https://pinafore.social/tags/${name}` },
-        name
-      )))
+      td(
+        '#' + name),
+      td(
+        a(
+          { href: `https://${instance}/tags/${name}` },
+          instance
+        )),
+      td(
+        a(
+          { href: `https://pinafore.social/tags/${name}` },
+          'pinafore'
+        )))
     rows += row
   }
   const html = h2(header) + table(rows)

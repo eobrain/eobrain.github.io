@@ -7,7 +7,7 @@ import iii from './instances.js'
 
 const TOP_COUNT = 5
 
-const instances = iii // .slice(1000, 1100)
+const instances = iii // .slice(1000, 1010)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 100 })
@@ -64,6 +64,19 @@ for (const instance of instances) {
           mapOfMaps[tld] = {
             tld,
             hashtagMap: { [name]: { name, increase } }
+          }
+        }
+
+        const count = history[0].uses
+        for (const hashtagMap of [hashtagMapAll, mapOfMaps[tld].hashtagMap]) {
+          if ('count' in hashtagMap[name]) {
+            if (count > hashtagMap[name].count) {
+              hashtagMap[name].instance = instance
+              hashtagMap[name].count = count
+            }
+          } else {
+            hashtagMap[name].instance = instance
+            hashtagMap[name].count = count
           }
         }
       }
