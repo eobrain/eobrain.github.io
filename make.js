@@ -1,5 +1,5 @@
 import tldInfos from './tld.js'
-import { tr, td, a, img, article, h2, table } from 'ez-html-elements'
+import { tr, td, a, img, article, h2, table, span } from 'ez-html-elements'
 import fs from 'fs'
 import { readFile } from 'node:fs/promises'
 // import { pp } from 'passprint'
@@ -28,17 +28,11 @@ async function writeHtml (jsonFile, header) {
       td(
         img({ src: blackPixel, style })),
       td(
-        '#' + name),
-      td(
         a(
-          { href: `https://${instance}/tags/${name}` },
-          instance
-        )),
-      td(
-        a(
-          { href: `https://pinafore.social/tags/${name}` },
-          'pinafore'
-        )))
+          { href: `https://${instance}/tags/${name}`, 'data-popular': instance },
+          '#' + name
+        ),
+        span(`on ${instance}`)))
     rows += row
   }
   const html = h2(header) + table(rows)
