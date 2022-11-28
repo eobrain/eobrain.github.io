@@ -7,10 +7,12 @@ import iii from './instances.js'
 
 const TOP_COUNT = 5
 
+const toJSON = x => JSON.stringify(x, null, ' ')
+
 const instances = iii // .slice(2000, 2100)
 instances.sort()
 
-const queue = new PQueue({ concurrency: 100 })
+const queue = new PQueue({ concurrency: 10 })
 
 let count = 0
 const total = instances.length
@@ -108,7 +110,7 @@ for (const instance of instances) {
 await Promise.all(promises)
 
 function printHashtags (tld, hashtagList) {
-  fs.writeFile(`tld/${tld}.json`, JSON.stringify(
+  fs.writeFile(`tld/${tld}.json`, toJSON(
     {
       date: Date.now(),
       total: hashtagList.length,
@@ -187,7 +189,7 @@ function printInstanceDistance () {
     hashtagList: notableHashtags(instance)
   })).sort((a, b) => a.distance - b.distance)
 
-  fs.writeFile('distances.json', JSON.stringify(distances), err => err && console.error(err))
+  fs.writeFile('distances.json', toJSON(distances), err => err && console.error(err))
 }
 
 printInstanceDistance()
