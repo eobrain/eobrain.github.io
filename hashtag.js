@@ -7,7 +7,7 @@ import iii from './instances.js'
 
 const TOP_COUNT = 5
 
-const instances = iii //.slice(2000, 2100)
+const instances = iii // .slice(2000, 2100)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 100 })
@@ -154,10 +154,15 @@ for (const dict of listOfMaps) {
 const magnitude = hashCounts => Math.sqrt(sum(Object.values(hashCounts).map(x => x * x)))
 const allMapMagnitude = magnitude(allMap)
 
+const instanceMagnitudes = {}
+for (const instance in instancesMap) {
+  instanceMagnitudes[instance] = magnitude(instancesMap[instance])
+}
+
 function cosineSimilarity (instance) {
   // dot product of all by instance divided by magnitudes
   const instanceHashCounts = instancesMap[instance]
-  const instanceMagnitude = magnitude(instanceHashCounts)
+  const instanceMagnitude = instanceMagnitudes[instance]
   let dotProduct = 0
   for (const name in instanceHashCounts) {
     dotProduct += instanceHashCounts[name] * allMap[name]
@@ -165,10 +170,21 @@ function cosineSimilarity (instance) {
   return dotProduct / (instanceMagnitude * allMapMagnitude)
 }
 
+function notableHashtags (instance) {
+  const instanceHashCounts = instancesMap[instance]
+  const hashtags = Object.keys(instanceHashCounts).map(name => ({
+    name,
+    value: (instanceHashCounts[name] / instanceMagnitudes[instance]) /
+    (allMap[name] / allMapMagnitude)
+  }))
+  return hashtags.sort((a, b) => b.value - a.value).slice(0, 2).map(x => x.name)
+}
+
 function printInstanceDistance () {
   const distances = Object.keys(instancesMap).map(instance => ({
     instance,
-    distance: cosineSimilarity(instance)
+    distance: cosineSimilarity(instance),
+    hashtagList: notableHashtags(instance)
   })).sort((a, b) => a.distance - b.distance)
 
   fs.writeFile('distances.json', JSON.stringify(distances), err => err && console.error(err))
