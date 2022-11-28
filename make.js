@@ -1,10 +1,10 @@
 import tldInfos from './tld.js'
-import { tr, td, a, img, article, h2, table, span } from 'ez-html-elements'
+import { tr, td, a, article, h2, table, span } from 'ez-html-elements'
 import fs from 'fs'
 import { readFile } from 'node:fs/promises'
 // import { pp } from 'passprint'
 
-const blackPixel = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII='
+// const blackPixel = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII='
 
 async function readJson (jsonFile) {
   const bytes = await readFile(jsonFile, { encoding: 'utf8' })
@@ -18,15 +18,15 @@ async function readJson (jsonFile) {
 async function writeHtml (jsonFile, header) {
   const json = await readJson(jsonFile)
   const all = json.all
-  const max = all[0].increase
+  // const max = all[0].increase
   let rows = ''
   for (let i = 0; i < all.length; ++i) {
-    const { name, increase, instance } = all[i]
-    const style = `height:1em;width:${20 * increase / max}vw`
+    const { name, instance } = all[i]
+    // const style = `height:1em;width:${20 * increase / max}vw`
     const row = tr(
       td(`${i + 1}`),
-      td(
-        img({ src: blackPixel, style })),
+      // td(
+      //  img({ src: blackPixel, style })),
       td(
         a(
           { href: `https://${instance}/tags/${name}`, 'data-popular': instance },
@@ -47,4 +47,5 @@ for (const { tld } of tldInfos) {
   writeHtml(`tld/${tld}.json`, `*.${tld} Instances`)
   contentHtml += article({ 'hx-get': `tld/${tld}.html`, 'hx-trigger': 'load' })
 }
+writeHtml('tld/ALL.json', 'All Hashtags')
 fs.writeFile('content.html', contentHtml, err => err && console.error(err))

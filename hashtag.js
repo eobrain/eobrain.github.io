@@ -7,7 +7,7 @@ import iii from './instances.js'
 
 const TOP_COUNT = 5
 
-const instances = iii // .slice(1000, 1010)
+const instances = iii // .slice(1000, 1100)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 100 })
@@ -88,21 +88,31 @@ for (const instance of instances) {
 
 await Promise.all(promises)
 
-function printTop (tld, hashtagMap) {
-  const hashtagList = Object.values(hashtagMap)
-  hashtagList.sort((a, b) => b.increase - a.increase)
-
-  const rows = hashtagList.slice(0, TOP_COUNT)
-
+function printHashtags (tld, hashtagList) {
   fs.writeFile(`tld/${tld}.json`, JSON.stringify(
     {
       date: Date.now(),
       total: hashtagList.length,
-      all: rows
+      all: hashtagList
     }), err => err && console.error(err))
 }
 
+function printTop (tld, hashtagMap) {
+  const hashtagList = Object.values(hashtagMap)
+  hashtagList.sort((a, b) => b.increase - a.increase)
+
+  printHashtags(tld, hashtagList.slice(0, TOP_COUNT))
+}
+
+function printAll (hashtagMap) {
+  const hashtagList = Object.values(hashtagMap)
+  hashtagList.sort((a, b) => b.count - a.count)
+  printHashtags('ALL', hashtagList)
+}
+
 printTop('TOTAL', hashtagMapAll)
+
+printAll(hashtagMapAll)
 
 const hashtagCount = dict => Object.keys(dict.hashtagMap).length
 
