@@ -7,7 +7,7 @@ import iii from './instances.js'
 
 const TOP_COUNT = 5
 
-const instances = iii // .slice(1000, 1100)
+const instances = iii //.slice(2000, 2100)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 100 })
@@ -37,6 +37,24 @@ function extractTld (domain) {
 const hashtagMapAll = {}
 const mapOfMaps = {}
 
+const instancesMap = {}
+const allMap = {}
+
+const sum = xs => xs.reduce((acc, x) => acc + x)
+
+function addInstancesMap (instance, name, totalUses) {
+  if (instance in instancesMap) {
+    instancesMap[instance][name] = totalUses
+  } else {
+    instancesMap[instance] = { [name]: totalUses }
+  }
+  if (name in allMap) {
+    allMap[name] += totalUses
+  } else {
+    allMap[name] = totalUses
+  }
+}
+
 for (const instance of instances) {
   const promise = queue.add(async () => {
     console.error(`${Math.round(100 * count / total)}% ${instance}`)
@@ -53,6 +71,7 @@ for (const instance of instances) {
         const smoothed = smoothish(usesArray)
         const increase = smoothed[0] - smoothed[1]
         addToHashTagMap(hashtagMapAll, name, increase)
+        addInstancesMap(instance, name, sum(usesArray))
 
         const tld = extractTld(instance)
         if (!tld.match(/^[a-z][a-z]+/)) {
@@ -131,3 +150,28 @@ export default [
 for (const dict of listOfMaps) {
   printTop(dict.tld, dict.hashtagMap)
 }
+
+const magnitude = hashCounts => Math.sqrt(sum(Object.values(hashCounts).map(x => x * x)))
+const allMapMagnitude = magnitude(allMap)
+
+function cosineSimilarity (instance) {
+  // dot product of all by instance divided by magnitudes
+  const instanceHashCounts = instancesMap[instance]
+  const instanceMagnitude = magnitude(instanceHashCounts)
+  let dotProduct = 0
+  for (const name in instanceHashCounts) {
+    dotProduct += instanceHashCounts[name] * allMap[name]
+  }
+  return dotProduct / (instanceMagnitude * allMapMagnitude)
+}
+
+function printInstanceDistance () {
+  const distances = Object.keys(instancesMap).map(instance => ({
+    instance,
+    distance: cosineSimilarity(instance)
+  })).sort((a, b) => a.distance - b.distance)
+
+  fs.writeFile('distances.json', JSON.stringify(distances), err => err && console.error(err))
+}
+
+printInstanceDistance()

@@ -1,5 +1,6 @@
 /node_modules
 /instances.html
 /instances.js
+/distances.json
 /tld/*.json
 /tld.js

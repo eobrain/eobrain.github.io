@@ -1,5 +1,5 @@
 import tldInfos from './tld.js'
-import { tr, td, a, article, h2, table, span } from 'ez-html-elements'
+import { tr, td, a, article, h2, table, span, li, ul } from 'ez-html-elements'
 import fs from 'fs'
 import { readFile } from 'node:fs/promises'
 // import { pp } from 'passprint'
@@ -49,3 +49,16 @@ for (const { tld } of tldInfos) {
 }
 writeHtml('tld/ALL.json', 'All Hashtags')
 fs.writeFile('content.html', contentHtml, err => err && console.error(err))
+
+async function writeInstances () {
+  const distances = await readJson('distances.json')
+  const lis = distances.map(x =>
+    li(
+      a(
+        { href: `https://${x.instance}/explore/tags` },
+        x.instance)))
+  const distancesHtml = ul(lis.join(''))
+  fs.writeFile('distances.html', distancesHtml, err => err && console.error(err))
+}
+
+writeInstances()
