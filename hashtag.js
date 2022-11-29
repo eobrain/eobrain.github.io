@@ -9,7 +9,7 @@ const TOP_COUNT = 5
 
 const toJSON = x => JSON.stringify(x, null, ' ')
 
-const instances = iii // .slice(2000, 2100)
+const instances = iii // .slice(2000, 3000)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 10 })
@@ -69,7 +69,7 @@ for (const instance of instances) {
       const hashtags = await result.json()
       for (let { name, history } of hashtags) {
         name = name.toLowerCase()
-        const usesArray = history.slice(1).map(h => h.uses)
+        const usesArray = history.slice(1).map(h => +h.uses)
         const smoothed = smoothish(usesArray)
         const increase = smoothed[0] - smoothed[1]
         addToHashTagMap(hashtagMapAll, name, increase)
@@ -153,33 +153,45 @@ for (const dict of listOfMaps) {
   printTop(dict.tld, dict.hashtagMap)
 }
 
+const names = []
+const indices = {}
+for (const name in allMap) {
+  indices[name] = names.length
+  names.push(name)
+}
+
 const magnitude = hashCounts => Math.sqrt(sum(Object.values(hashCounts).map(x => x * x)))
 const allMapMagnitude = magnitude(allMap)
 
-const instanceMagnitudes = {}
+const allVector = names.map(name => allMap[name] / allMapMagnitude)
+
+const instanceVectors = {}
 for (const instance in instancesMap) {
-  instanceMagnitudes[instance] = magnitude(instancesMap[instance])
+  const instMap = instancesMap[instance]
+  const instanceMagnitude = magnitude(instMap)
+  instanceVectors[instance] = []
+  for (const name in instMap) {
+    const i = indices[name]
+    instanceVectors[instance][i] = instMap[name] / instanceMagnitude
+  }
 }
 
 function cosineSimilarity (instance) {
-  // dot product of all by instance divided by magnitudes
-  const instanceHashCounts = instancesMap[instance]
-  const instanceMagnitude = instanceMagnitudes[instance]
   let dotProduct = 0
-  for (const name in instanceHashCounts) {
-    dotProduct += instanceHashCounts[name] * allMap[name]
+  for (const name in instancesMap[instance]) {
+    const i = indices[name]
+    dotProduct += instanceVectors[instance][i] * allVector[i]
   }
-  return dotProduct / (instanceMagnitude * allMapMagnitude)
+  return dotProduct
 }
 
 function notableHashtags (instance) {
   const instanceHashCounts = instancesMap[instance]
   const hashtags = Object.keys(instanceHashCounts).map(name => ({
     name,
-    value: (instanceHashCounts[name] / instanceMagnitudes[instance]) /
-    (allMap[name] / allMapMagnitude)
+    value: instanceVectors[instance][indices[name]] / allVector[indices[name]]
   }))
-  return hashtags.sort((a, b) => b.value - a.value).slice(0, 2).map(x => x.name)
+  return hashtags.sort((a, b) => b.value - a.value).slice(0, 999).map(x => x.name)
 }
 
 function printInstanceDistance () {
