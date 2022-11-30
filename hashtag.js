@@ -5,6 +5,8 @@ import fs from 'fs'
 
 import iii from './instances.js'
 
+process.setMaxListeners(0)
+
 const TOP_COUNT = 5
 
 const toJSON = x => JSON.stringify(x, null, ' ')
@@ -12,7 +14,7 @@ const toJSON = x => JSON.stringify(x, null, ' ')
 const instances = iii // .slice(2000, 3000)
 instances.sort()
 
-const queue = new PQueue({ concurrency: 10 })
+const queue = new PQueue({ concurrency: 20 })
 
 let count = 0
 const total = instances.length
@@ -176,13 +178,23 @@ for (const instance in instancesMap) {
   }
 }
 
-function cosineSimilarity (instance) {
+/* function cosineSimilarity (instance) {
   let dotProduct = 0
   for (const name in instancesMap[instance]) {
     const i = indices[name]
     dotProduct += instanceVectors[instance][i] * allVector[i]
   }
   return dotProduct
+} */
+
+function euclidian (instance) {
+  const instanceVector = instanceVectors[instance]
+  let sumSq = 0
+  for (let i = 0; i < allVector.length; ++i) {
+    const dx = allVector[i] - (instanceVector[i] || 0)
+    sumSq += dx * dx
+  }
+  return Math.sqrt(sumSq)
 }
 
 function notableHashtags (instance) {
@@ -191,13 +203,13 @@ function notableHashtags (instance) {
     name,
     value: instanceVectors[instance][indices[name]] / allVector[indices[name]]
   }))
-  return hashtags.sort((a, b) => b.value - a.value).slice(0, 999).map(x => x.name)
+  return hashtags.sort((a, b) => b.value - a.value).slice(0, 3).map(x => x.name)
 }
 
 function printInstanceDistance () {
   const distances = Object.keys(instancesMap).map(instance => ({
     instance,
-    distance: cosineSimilarity(instance),
+    distance: euclidian(instance),
     hashtagList: notableHashtags(instance)
   })).sort((a, b) => a.distance - b.distance)
 
