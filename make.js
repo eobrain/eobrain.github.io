@@ -22,6 +22,10 @@ async function writeHtml (jsonFile, header) {
   let rows = ''
   for (let i = 0; i < all.length; ++i) {
     const { name, instance } = all[i]
+    if (!instance) {
+      console.error('No instance.', { jsonFile, i, name })
+      continue
+    }
     // const style = `height:1em;width:${20 * increase / max}vw`
     const row = tr(
       td(`${i + 1}`),
@@ -57,7 +61,7 @@ async function writeInstances () {
   const lis = distances.map(x =>
     li(
       a(
-        { href: `https://${x.instance}/explore/tags` },
+        { href: `https://${x.instance}` },
         x.instance),
       hashtagHtml(x.hashtagList)))
   const distancesHtml = ul(lis.join(''))

@@ -59,6 +59,8 @@ function addInstancesMap (instance, name, totalUses) {
   }
 }
 
+const instanceActivity = {}
+
 for (const instance of instances) {
   const promise = queue.add(async () => {
     console.error(`${Math.round(100 * count / total)}% ${instance}`)
@@ -69,13 +71,16 @@ for (const instance of instances) {
 
       const result = await resultPromise
       const hashtags = await result.json()
+      instanceActivity[instance] = 0
       for (let { name, history } of hashtags) {
         name = name.toLowerCase()
         const usesArray = history.slice(1).map(h => +h.uses)
         const smoothed = smoothish(usesArray)
         const increase = smoothed[0] - smoothed[1]
         addToHashTagMap(hashtagMapAll, name, increase)
-        addInstancesMap(instance, name, sum(usesArray))
+        const uses = sum(usesArray)
+        instanceActivity[instance] += uses
+        addInstancesMap(instance, name, uses)
 
         const tld = extractTld(instance)
         if (!tld.match(/^[a-z][a-z]+/)) {
@@ -209,9 +214,10 @@ function notableHashtags (instance) {
 function printInstanceDistance () {
   const distances = Object.keys(instancesMap).map(instance => ({
     instance,
+    activity: instanceActivity[instance],
     distance: euclidian(instance),
     hashtagList: notableHashtags(instance)
-  })).sort((a, b) => a.distance - b.distance)
+  })).sort((a, b) => b.activity - a.activity)
 
   fs.writeFile('distances.json', toJSON(distances), err => err && console.error(err))
 }
