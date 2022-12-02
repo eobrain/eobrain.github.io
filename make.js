@@ -44,12 +44,12 @@ async function writeHtml (jsonFile, header) {
   fs.writeFile(htmlFile, html, err => err && console.error(err))
 }
 
-let contentHtml = article({ 'hx-get': 'tld/TOTAL.html', 'hx-trigger': 'load' })
+let contentHtml = article({ 'hx-get': 'tld/TOTAL.html', 'hx-trigger': 'intersect once' })
 
 writeHtml('tld/TOTAL.json', 'All Instances')
 for (const { tld } of tldInfos) {
   writeHtml(`tld/${tld}.json`, `*.${tld} Instances`)
-  contentHtml += article({ 'hx-get': `tld/${tld}.html`, 'hx-trigger': 'load' })
+  contentHtml += article({ 'hx-get': `tld/${tld}.html`, 'hx-trigger': 'intersect once' })
 }
 writeHtml('tld/ALL.json', 'All Hashtags')
 fs.writeFile('content.html', contentHtml, err => err && console.error(err))

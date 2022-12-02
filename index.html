@@ -15,13 +15,13 @@
 <body>
   <header>
     <h1>Mastodon Trending Hashtags</h1>
-    <nav hx-get="nav.html" hx-trigger="load"></nav>
+    <nav hx-get="nav.html" hx-trigger="intersect once"></nav>
   </header>
-  <section hx-get="viewon.html" hx-trigger="load">
+  <section hx-get="viewon.html" hx-trigger="intersect once">
   </section>
-  <main hx-get="content.html" hx-trigger="load">
+  <main hx-get="content.html" hx-trigger="intersect once">
   </main>
-  <footer hx-get="footer.html" hx-trigger="load">
+  <footer hx-get="footer.html" hx-trigger="intersect once">
   </footer>
 </body>
 

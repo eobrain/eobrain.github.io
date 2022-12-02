@@ -11,7 +11,7 @@ const TOP_COUNT = 5
 
 const toJSON = x => JSON.stringify(x, null, ' ')
 
-const instances = iii // .slice(2000, 3000)
+const instances = iii // .slice(2000, 2100)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 20 })
