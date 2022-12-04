@@ -13,8 +13,10 @@
   <body>
     <article>
       <h1>Mastodon Trending Hashtags</h1>
-      <section hx-get="nav.html" hx-trigger="intersect once"></section>
-      <section hx-get="viewon.html" hx-trigger="load"></section>
+      <section>
+        <p hx-get="nav.html" hx-trigger="intersect once"></p>
+        <p hx-get="viewon.html" hx-trigger="load"></p>
+      </section>
       <section>
         <p>
           <t-newthought>This page</t-newthought> lists hashtags that have
