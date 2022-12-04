@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>All Mastadon</title>
+    <meta name="description" content="Mastodon Trending Hashtags" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tufte.min.css" />
+    <script src="vendor/htmx.org@1.8.2.js"></script>
+    <script src="tuftecomponent/index.js" type="module"></script>
+  </head>
 
-<head>
-  <title>Mastodon Trending Hashtags</title>
-  <meta name="description" content="Mastodon Trending Hashtags">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="vendor/simple.min.css" />
-  <script src="vendor/htmx.org@1.8.2.js"></script>
-</head>
+  <body>
+    <article>
+      <h1>All Mastodon</h1>
+      <section hx-get="nav.html" hx-trigger="intersect once"></section>
+      <section>
+        <p>
+          <t-newthought>You cannot search</t-newthought> for everything on
+          Mastodon. You can search for what your server knows about, based on
+          what you and other people on your server have followed and boosted.
+          <t-sidenote
+            >Your administrator might also block some servers that are not
+            compatible with the ethos of your server.
+          </t-sidenote>
+        </p>
 
-<body>
-  <header>
-    <h1>Mastodon Trending Hashtags</h1>
-    <nav hx-get="nav.html" hx-trigger="intersect once"></nav>
-  </header>
-  <section hx-get="viewon.html" hx-trigger="intersect once">
-  </section>
-  <main hx-get="content.html" hx-trigger="intersect once">
-  </main>
-  <footer hx-get="footer.html" hx-trigger="intersect once">
-  </footer>
-</body>
-
+        <p>
+          That is deliberate for two reasons. Firstly Mastodon wants to avoid
+          having any central place for searching.
+          <t-sidenote
+            >That would provide a choke point for one organization to exert
+            monopoly control, and provide a tempting convenient target for
+            governments armed with subpoena or coercive powers.</t-sidenote
+          >
+          Secondly Mastodon does not want to make it <em>too</em> easy to find
+          everything on Mastodon.
+          <t-sidenote
+            >That would make it too easy for trolls and bullies to find victims
+            to harass.</t-sidenote
+          >
+        </p>
+        <p>
+          Hashtags provide a nice compromise. If you add one to your post you
+          are implicitly advertising that you want your post to be found via
+          that hashtag. So Mastodon makes it possible to search by hashtag, but
+          only for those that your server knows about. If your server is getting
+          a flow of data from many other servers then you may be able to find
+          what you want by searching via your server. If you want to search more
+          widely you can use this site.
+        </p>
+      </section>
+      <section hx-get="footer.html" hx-trigger="load"></section>
+    </article>
+  </body>
 </html>

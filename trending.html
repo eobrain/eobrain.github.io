@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Active Mastodon Hashtags</title>
+    <title>Mastodon Trending Hashtags</title>
     <meta name="description" content="Mastodon Trending Hashtags" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,16 +12,22 @@
 
   <body>
     <article>
-      <h1>Active Mastodon Hashtags</h1>
+      <h1>Mastodon Trending Hashtags</h1>
       <section hx-get="nav.html" hx-trigger="intersect once"></section>
       <section hx-get="viewon.html" hx-trigger="load"></section>
       <section>
         <p>
-          <t-newthought>This page</t-newthought> lists all active hashtags with
-          the more active ones first.
+          <t-newthought>This page</t-newthought> lists hashtags that have
+          increased use in the last few days. The first section shows the trends
+          globally, and the later sections show trends in particular groupings
+          of servers.
         </p>
       </section>
-      <section hx-get="tld/ALL.html" hx-trigger="load"></section>
+      <div
+        hx-get="content.html"
+        hx-swap="outerHTML"
+        hx-trigger="intersect once"
+      ></div>
       <section hx-get="footer.html" hx-trigger="load"></section>
     </article>
   </body>

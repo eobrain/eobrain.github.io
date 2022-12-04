@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Mastodon Instances</title>
-    <meta name="description" content="Mastodon Trending Hashtags">
+    <meta name="description" content="Mastodon Instances" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vendor/simple.min.css" />
+    <link rel="stylesheet" href="tufte.min.css" />
     <script src="vendor/htmx.org@1.8.2.js"></script>
+    <script src="tuftecomponent/index.js" type="module"></script>
   </head>
 
-<body>
-    <header>
-        <h1>Mastodon Instances</h1>
-        <nav hx-get="nav.html" hx-trigger="load"></nav>
-    </header>
-    <main hx-get="distances.html" hx-trigger="load">
-    </main>
-    <footer hx-get="footer.html" hx-trigger="load">
-    </footer>
-</body>
-
+  <body>
+    <article>
+      <h1>Mastodon Instances</h1>
+      <section hx-get="nav.html" hx-trigger="intersect once"></section>
+      <section>
+        <p>
+          <t-newthought>This page</t-newthought> lists all known Mastodon
+          instances together with some hashtags that are more common on those
+          instances.
+        </p>
+      </section>
+      <section hx-get="distances.html" hx-trigger="load"></section>
+      <section hx-get="footer.html" hx-trigger="load"></section>
+    </article>
+  </body>
 </html>

@@ -6,7 +6,6 @@ function changeLinks () {
   matches.forEach(a => {
     const hostName = instance === 'POPULAR' ? a.dataset.popular : instance
     a.href = a.href.replace(/https:\/\/.*\/tags\//, `https://${hostName}/tags/`)
-    a.nextElementSibling.innerHTML = `on ${hostName}`
   })
 }
 
