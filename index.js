@@ -31,10 +31,19 @@ const customCallback = () => {
   changeLinks()
 }
 
+const disabledCallback = () => {
+  const instance = instanceElement.value.trim()
+  customElement.disabled = !instance.match(/[a-z]\.[a-z]/)
+  if (customElement.disabled && customElement.checked) {
+    popularElement.checked = true
+  }
+}
+
 popularElement.addEventListener('change', popularCallback)
 pinaforeElement.addEventListener('change', pinaforeCallback)
 customElement.addEventListener('change', customCallback)
 instanceElement.addEventListener('change', customCallback)
+instanceElement.addEventListener('change', disabledCallback)
 
 switch (document.location.hash) {
   case '#POPULAR':
@@ -53,3 +62,5 @@ switch (document.location.hash) {
     customCallback()
     break
 }
+
+disabledCallback()
