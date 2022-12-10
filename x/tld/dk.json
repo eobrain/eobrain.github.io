@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 15.057983579192065,
+   "instance": "mstdn.dk",
+   "count": "19"
+  },
+  {
+   "name": "disability",
+   "increase": 9.327416015220058,
+   "instance": "mstdn.dk",
+   "count": "4"
+  },
+  {
+   "name": "accessibility",
+   "increase": 7.886477278438665,
+   "instance": "mstdn.dk",
+   "count": "11"
+  },
+  {
+   "name": "china",
+   "increase": 7.427505108527153,
+   "instance": "microblog.wiwie.dk",
+   "count": "19"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 6.769710242850483,
+   "instance": "mstdn.dk",
+   "count": "3"
+  }
+ ]
+}

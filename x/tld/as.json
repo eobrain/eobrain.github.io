@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 18.167332448605634,
+   "instance": "1234.as",
+   "count": "29"
+  },
+  {
+   "name": "china",
+   "increase": 13.790178702182164,
+   "instance": "1234.as",
+   "count": "19"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 8.210025085022574,
+   "instance": "1234.as",
+   "count": "51"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 4.411108257053063,
+   "instance": "1234.as",
+   "count": "6"
+  },
+  {
+   "name": "advent",
+   "increase": 2.8735087797579,
+   "instance": "1234.as",
+   "count": "0"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323943,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 148.14409096829732,
+   "instance": "mastodon.zero.lgbt",
+   "count": "7"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 99.58862784853268,
+   "instance": "meow.lgbt",
+   "count": "3"
+  },
+  {
+   "name": "sunday",
+   "increase": 78.36054588977119,
+   "instance": "tech.lgbt",
+   "count": "16"
+  },
+  {
+   "name": "7libros",
+   "increase": 23.398571492314325,
+   "instance": "tech.lgbt",
+   "count": "57"
+  },
+  {
+   "name": "china",
+   "increase": 12.784714497037594,
+   "instance": "gamedev.lgbt",
+   "count": "2"
+  }
+ ]
+}

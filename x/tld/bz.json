@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 19.062849908308717,
+   "instance": "socl.bz",
+   "count": "52"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 15.328297353857664,
+   "instance": "socl.bz",
+   "count": "11"
+  },
+  {
+   "name": "shanghai",
+   "increase": 7.799523830771443,
+   "instance": "socl.bz",
+   "count": "8"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 1.2315037627533858,
+   "instance": "socl.bz",
+   "count": "27"
+  },
+  {
+   "name": "eagles",
+   "increase": 1.2011497757594611,
+   "instance": "socl.bz",
+   "count": "61"
+  }
+ ]
+}

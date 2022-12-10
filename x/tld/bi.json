@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "mutualaidrequest",
+   "increase": 8.24218143370218,
+   "instance": "disaster.bi",
+   "count": "0"
+  },
+  {
+   "name": "mutualaid",
+   "increase": 6.601978778383343,
+   "instance": "disaster.bi",
+   "count": "1"
+  },
+  {
+   "name": "china",
+   "increase": 2.4630075255067716,
+   "instance": "disaster.bi",
+   "count": "4"
+  },
+  {
+   "name": "twittermigration",
+   "increase": 0.3552362607152322,
+   "instance": "disaster.bi",
+   "count": "8"
+  },
+  {
+   "name": "photomonday",
+   "increase": -0.1925539893928904,
+   "instance": "disaster.bi",
+   "count": "5"
+  }
+ ]
+}

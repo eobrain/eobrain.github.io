@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "mastodon",
+   "increase": 16.60146471135627,
+   "instance": "mastodon.opencloud.lu",
+   "count": "123"
+  },
+  {
+   "name": "art",
+   "increase": 11.716777441850866,
+   "instance": "mastodon.opencloud.lu",
+   "count": "24"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 6.287806094987914,
+   "instance": "uuchten.lu",
+   "count": "3"
+  },
+  {
+   "name": "fahrrad",
+   "increase": 3.7792774173813406,
+   "instance": "uuchten.lu",
+   "count": "1"
+  },
+  {
+   "name": "landscapephotography",
+   "increase": 3.6404518267487447,
+   "instance": "uuchten.lu",
+   "count": "2"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "sunday",
+   "increase": 36.669371155053724,
+   "instance": "dice.camp",
+   "count": "10"
+  },
+  {
+   "name": "accessibility",
+   "increase": 11.843639826662127,
+   "instance": "dice.camp",
+   "count": "37"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 5.948707734348227,
+   "instance": "dale.camp",
+   "count": "1"
+  },
+  {
+   "name": "indieweb",
+   "increase": 4.408214402536992,
+   "instance": "astral.camp",
+   "count": "1"
+  },
+  {
+   "name": "scotland",
+   "increase": 4.026488744313568,
+   "instance": "astral.camp",
+   "count": "0"
+  }
+ ]
+}

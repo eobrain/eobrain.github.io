@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 9.531016260659769,
+   "instance": "mastodon.hk",
+   "count": "25"
+  },
+  {
+   "name": "accessibility",
+   "increase": 1.7922635216043155,
+   "instance": "mastodon.hk",
+   "count": "3"
+  },
+  {
+   "name": "knitting",
+   "increase": 1.5245102207536765,
+   "instance": "mastodon.hk",
+   "count": "3"
+  },
+  {
+   "name": "astronomy",
+   "increase": 1.268241410029498,
+   "instance": "mastodon.hk",
+   "count": "3"
+  },
+  {
+   "name": "cat",
+   "increase": -1.578700316939349,
+   "instance": "mastodon.hk",
+   "count": "16"
+  }
+ ]
+}

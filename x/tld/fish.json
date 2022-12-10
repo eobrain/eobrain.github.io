@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "autistic",
+   "increase": -0.8254228209578729,
+   "instance": "signofthe.fish",
+   "count": "7"
+  },
+  {
+   "name": "tech",
+   "increase": -1.2276041925885632,
+   "instance": "social.typing.fish",
+   "count": "5"
+  },
+  {
+   "name": "australia",
+   "increase": -3.2368801394763658,
+   "instance": "signofthe.fish",
+   "count": "18"
+  },
+  {
+   "name": "adhd",
+   "increase": -4.379394342188771,
+   "instance": "signofthe.fish",
+   "count": "13"
+  },
+  {
+   "name": "mastodon",
+   "increase": -6.50662883590228,
+   "instance": "social.typing.fish",
+   "count": "21"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 28.855905869526783,
+   "instance": "mastodon.vlaanderen",
+   "count": "13"
+  },
+  {
+   "name": "sunday",
+   "increase": 13.079528860651847,
+   "instance": "mastodon.vlaanderen",
+   "count": "3"
+  },
+  {
+   "name": "shanghai",
+   "increase": 11.510780675103701,
+   "instance": "mastodon.vlaanderen",
+   "count": "11"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 10.532948640129764,
+   "instance": "mastodon.vlaanderen",
+   "count": "2"
+  },
+  {
+   "name": "education",
+   "increase": 3.3305911527342325,
+   "instance": "mastodon.vlaanderen",
+   "count": "8"
+  }
+ ]
+}

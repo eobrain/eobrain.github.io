@@ -1,0 +1,30 @@
+{
+ "date": 1669652323951,
+ "total": 4,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 6.66634819389985,
+   "instance": "mastodon.straylight.engineering",
+   "count": "67"
+  },
+  {
+   "name": "mastodon",
+   "increase": 2.414963362897371,
+   "instance": "mastodon.straylight.engineering",
+   "count": "5"
+  },
+  {
+   "name": "science",
+   "increase": -0.797477640603153,
+   "instance": "mastodon.straylight.engineering",
+   "count": "7"
+  },
+  {
+   "name": "cats",
+   "increase": -1.1131567682885342,
+   "instance": "mastodon.straylight.engineering",
+   "count": "8"
+  }
+ ]
+}

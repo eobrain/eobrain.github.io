@@ -1,0 +1,36 @@
+{
+ "date": 1670177025135,
+ "total": 5,
+ "all": [
+  {
+   "name": "mutualaid",
+   "increase": 9.964236706843955,
+   "instance": "toki.social",
+   "count": "1"
+  },
+  {
+   "name": "caturday",
+   "increase": 9.515632333518067,
+   "instance": "nycr.social",
+   "count": "3"
+  },
+  {
+   "name": "satyrday",
+   "increase": 9.441528847775963,
+   "instance": "toki.social",
+   "count": "7"
+  },
+  {
+   "name": "sillycuratorprompts",
+   "increase": 7.626546624255582,
+   "instance": "toki.social",
+   "count": "1"
+  },
+  {
+   "name": "chatgpt",
+   "increase": 0.8797471346635359,
+   "instance": "toki.social",
+   "count": "9"
+  }
+ ]
+}

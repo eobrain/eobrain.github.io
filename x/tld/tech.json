@@ -1,0 +1,36 @@
+{
+ "date": 1669652323943,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 121.78325615845546,
+   "instance": "social.platypush.tech",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 84.23515013837726,
+   "instance": "social.drastical.tech",
+   "count": "7"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 74.29025571368275,
+   "instance": "mastodon.deef.tech",
+   "count": "5"
+  },
+  {
+   "name": "caturday",
+   "increase": 39.032896930163616,
+   "instance": "social.owlcode.tech",
+   "count": "3"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 14.05193777293699,
+   "instance": "mastodon.motcha.tech",
+   "count": "24"
+  }
+ ]
+}

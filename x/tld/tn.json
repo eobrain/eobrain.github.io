@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 5.126697585419343,
+   "instance": "mastodon.tn",
+   "count": "1"
+  },
+  {
+   "name": "astronomy",
+   "increase": 1.7184564505661246,
+   "instance": "mastodon.tn",
+   "count": "0"
+  },
+  {
+   "name": "accessibility",
+   "increase": 1.70989137253361,
+   "instance": "mastodon.tn",
+   "count": "5"
+  },
+  {
+   "name": "ecologie",
+   "increase": 0.3662632894566642,
+   "instance": "mastodon.tn",
+   "count": "6"
+  },
+  {
+   "name": "antifa",
+   "increase": 0.1315704685263256,
+   "instance": "mastodon.tn",
+   "count": "8"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 47.537991370940304,
+   "instance": "dcae.fyi",
+   "count": "21"
+  },
+  {
+   "name": "sunday",
+   "increase": 35.085679775119175,
+   "instance": "waldorf.fyi",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 30.08141647278661,
+   "instance": "dcae.fyi",
+   "count": "4"
+  },
+  {
+   "name": "china",
+   "increase": 12.777905391592357,
+   "instance": "dcae.fyi",
+   "count": "31"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 10.691061353906786,
+   "instance": "waldorf.fyi",
+   "count": "1"
+  }
+ ]
+}

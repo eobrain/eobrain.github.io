@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 32.41347621333334,
+   "instance": "mastodon.bitcoin.ninja",
+   "count": "24"
+  },
+  {
+   "name": "sunday",
+   "increase": 16.698980955769947,
+   "instance": "mastodon.bitcoin.ninja",
+   "count": "14"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 8.90758567001141,
+   "instance": "mastodon.bitcoin.ninja",
+   "count": "9"
+  },
+  {
+   "name": "accessibility",
+   "increase": 7.043383545475368,
+   "instance": "mastodon.ninja",
+   "count": "7"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 4.132073605274909,
+   "instance": "mastodon.zunda.ninja",
+   "count": "13"
+  }
+ ]
+}

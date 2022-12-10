@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 44.7816443635996,
+   "instance": "mastodon.com.br",
+   "count": "9"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 20.461321122604247,
+   "instance": "pu2ttz.app.br",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 12.900064127800437,
+   "instance": "pu2ttz.app.br",
+   "count": "8"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 9.232717768357258,
+   "instance": "pu2ttz.app.br",
+   "count": "1"
+  },
+  {
+   "name": "advent",
+   "increase": 8.810841433961308,
+   "instance": "pu2ttz.app.br",
+   "count": "1"
+  }
+ ]
+}

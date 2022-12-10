@@ -1,0 +1,36 @@
+{
+ "date": 1669652323943,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 61.52249571586698,
+   "instance": "witter.cz",
+   "count": "8"
+  },
+  {
+   "name": "caturday",
+   "increase": 34.07469215051036,
+   "instance": "mastodon.skorpil.cz",
+   "count": "4"
+  },
+  {
+   "name": "shanghai",
+   "increase": 30.367629149238596,
+   "instance": "mastodon.macsnet.cz",
+   "count": "5"
+  },
+  {
+   "name": "china",
+   "increase": 26.3831862572847,
+   "instance": "mastodonczech.cz",
+   "count": "46"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 19.977153272498036,
+   "instance": "mastodon.macsnet.cz",
+   "count": "3"
+  }
+ ]
+}

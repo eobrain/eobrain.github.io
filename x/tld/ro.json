@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 32.50950958052817,
+   "instance": "mstdn.ikebuku.ro",
+   "count": "3"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 30.941775137183356,
+   "instance": "mstdn.ikebuku.ro",
+   "count": "58"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 18.410098038653928,
+   "instance": "mstdn.ro",
+   "count": "8"
+  },
+  {
+   "name": "ペペロンチーノチャレンジ",
+   "increase": 15.296141005178061,
+   "instance": "mstdn.ikebuku.ro",
+   "count": "0"
+  },
+  {
+   "name": "sunday",
+   "increase": 14.485557869420681,
+   "instance": "mstdn.ro",
+   "count": "9"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "수성의마녀",
+   "increase": 32.527107334814275,
+   "instance": "mastodon.mnetwork.co.kr",
+   "count": "0"
+  },
+  {
+   "name": "caturday",
+   "increase": 11.731782780618904,
+   "instance": "mastodon.mnetwork.co.kr",
+   "count": "1"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 1.2315037627533858,
+   "instance": "twingyeo.kr",
+   "count": "46"
+  },
+  {
+   "name": "digital",
+   "increase": 0.04077335973879748,
+   "instance": "twingyeo.kr",
+   "count": "7"
+  },
+  {
+   "name": "autokorrektur",
+   "increase": -0.03747489158020734,
+   "instance": "twingyeo.kr",
+   "count": "8"
+  }
+ ]
+}

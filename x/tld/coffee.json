@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "javascript",
+   "increase": 5.101283085261371,
+   "instance": "mastodon.iguana.coffee",
+   "count": "1"
+  },
+  {
+   "name": "hachyderm",
+   "increase": 2.414105620755067,
+   "instance": "mastodon.iguana.coffee",
+   "count": "3"
+  },
+  {
+   "name": "klimakatastrophe",
+   "increase": 2.0192962499184395,
+   "instance": "social.lecker.coffee",
+   "count": "3"
+  },
+  {
+   "name": "autokorrektur",
+   "increase": 1.5548492407181023,
+   "instance": "social.lecker.coffee",
+   "count": "6"
+  },
+  {
+   "name": "rustlang",
+   "increase": 1.5416403768187075,
+   "instance": "mastodon.hyperreal.coffee",
+   "count": "1"
+  }
+ ]
+}

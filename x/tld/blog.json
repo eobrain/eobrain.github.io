@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 7.1529946352579605,
+   "instance": "autistic.blog",
+   "count": "6"
+  },
+  {
+   "name": "china",
+   "increase": 4.0738945425923605,
+   "instance": "autistic.blog",
+   "count": "12"
+  },
+  {
+   "name": "sunday",
+   "increase": 3.5064295443495603,
+   "instance": "autistic.blog",
+   "count": "1"
+  },
+  {
+   "name": "screenreader",
+   "increase": 1.5457280223080694,
+   "instance": "autistic.blog",
+   "count": "6"
+  },
+  {
+   "name": "lists",
+   "increase": 0.8210025085022572,
+   "instance": "autistic.blog",
+   "count": "7"
+  }
+ ]
+}

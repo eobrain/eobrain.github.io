@@ -1,0 +1,36 @@
+{
+ "date": 1670177025132,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 100.82769882886062,
+   "instance": "freeatlantis.com",
+   "count": "8"
+  },
+  {
+   "name": "usmnt",
+   "increase": 16.67277173435292,
+   "instance": "social.4f9e1738.ignorelist.com",
+   "count": "0"
+  },
+  {
+   "name": "satyrday",
+   "increase": 9.031027593524826,
+   "instance": "social.futurnumerique.com",
+   "count": "7"
+  },
+  {
+   "name": "sillycuratorprompts",
+   "increase": 7.626546624255582,
+   "instance": "social.futurnumerique.com",
+   "count": "1"
+  },
+  {
+   "name": "tusky",
+   "increase": 6.7431951230881,
+   "instance": "social.futurnumerique.com",
+   "count": "5"
+  }
+ ]
+}

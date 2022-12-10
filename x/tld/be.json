@@ -1,0 +1,36 @@
+{
+ "date": 1669652323943,
+ "total": 5,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 275.32248410035595,
+   "instance": "mastodon.babb.be",
+   "count": "395"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 154.32359159654365,
+   "instance": "mastodon-belgium.be",
+   "count": "42"
+  },
+  {
+   "name": "photography",
+   "increase": 116.06167895300275,
+   "instance": "mastodon.babb.be",
+   "count": "155"
+  },
+  {
+   "name": "art",
+   "increase": 88.4229588766661,
+   "instance": "mastodon.elevenways.be",
+   "count": "86"
+  },
+  {
+   "name": "gamedev",
+   "increase": 87.51973092292592,
+   "instance": "toonvandeputte.be",
+   "count": "8"
+  }
+ ]
+}

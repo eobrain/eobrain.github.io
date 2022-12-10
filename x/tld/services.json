@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "standingstonesunday",
+   "increase": 9.947023909418192,
+   "instance": "jasette.facil.services",
+   "count": "3"
+  },
+  {
+   "name": "antifa",
+   "increase": 1.9324147489274912,
+   "instance": "jasette.facil.services",
+   "count": "20"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 1.2315037627533858,
+   "instance": "jasette.facil.services",
+   "count": "34"
+  },
+  {
+   "name": "volcano",
+   "increase": 0.9345442336511425,
+   "instance": "jasette.facil.services",
+   "count": "11"
+  },
+  {
+   "name": "fnac",
+   "increase": 0.4105012542511286,
+   "instance": "jasette.facil.services",
+   "count": "21"
+  }
+ ]
+}

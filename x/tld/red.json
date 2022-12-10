@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 8.020581712181581,
+   "instance": "pinkorange.red",
+   "count": "18"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 5.3365163052646745,
+   "instance": "pinkorange.red",
+   "count": "17"
+  },
+  {
+   "name": "introduction",
+   "increase": 0,
+   "instance": "mastodon.nopasaran.red",
+   "count": "0"
+  },
+  {
+   "name": "mastodon",
+   "increase": 0,
+   "instance": "mastodon.nopasaran.red",
+   "count": "0"
+  },
+  {
+   "name": "introductions",
+   "increase": 0,
+   "instance": "mastodon.nopasaran.red",
+   "count": "0"
+  }
+ ]
+}

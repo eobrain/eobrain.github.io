@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 12.404525040417674,
+   "instance": "allships.run",
+   "count": "28"
+  },
+  {
+   "name": "mutualaid",
+   "increase": 6.180699963147896,
+   "instance": "circumstances.run",
+   "count": "4"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 4.926015051013543,
+   "instance": "allships.run",
+   "count": "43"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 4.475748077450242,
+   "instance": "circumstances.run",
+   "count": "1"
+  },
+  {
+   "name": "china",
+   "increase": 3.4294125473092167,
+   "instance": "allships.run",
+   "count": "8"
+  }
+ ]
+}

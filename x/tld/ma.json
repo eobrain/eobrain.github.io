@@ -1,0 +1,30 @@
+{
+ "date": 1669652323951,
+ "total": 4,
+ "all": [
+  {
+   "name": "수성의마녀",
+   "increase": 16.263553667407137,
+   "instance": "mstdn.gogu.ma",
+   "count": "0"
+  },
+  {
+   "name": "caturday",
+   "increase": 6.071142017435016,
+   "instance": "mstdn.gogu.ma",
+   "count": "1"
+  },
+  {
+   "name": "아무말하세요",
+   "increase": -0.7978213591212917,
+   "instance": "mstdn.gogu.ma",
+   "count": "12"
+  },
+  {
+   "name": "열심히살지않기협회",
+   "increase": -1.22867752202833,
+   "instance": "mstdn.gogu.ma",
+   "count": "8"
+  }
+ ]
+}

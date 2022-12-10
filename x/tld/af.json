@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "shindanmaker",
+   "increase": 22.65389532662771,
+   "instance": "m.aqr.af",
+   "count": "21"
+  },
+  {
+   "name": "books",
+   "increase": 1.5742068467644352,
+   "instance": "toot.geeky.af",
+   "count": "2"
+  },
+  {
+   "name": "いいニーハイの日",
+   "increase": 0,
+   "instance": "m.aqr.af",
+   "count": "6"
+  },
+  {
+   "name": "note",
+   "increase": -0.06883651900075793,
+   "instance": "m.aqr.af",
+   "count": "6"
+  },
+  {
+   "name": "twitter",
+   "increase": -1.421299683060648,
+   "instance": "toot.geeky.af",
+   "count": "5"
+  }
+ ]
+}

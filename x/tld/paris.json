@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "books",
+   "increase": 2.5552795160745863,
+   "instance": "nixos.paris",
+   "count": "4"
+  },
+  {
+   "name": "gardening",
+   "increase": 2.497017812031312,
+   "instance": "nixos.paris",
+   "count": "4"
+  },
+  {
+   "name": "cooking",
+   "increase": 1.44647488860224,
+   "instance": "nixos.paris",
+   "count": "2"
+  },
+  {
+   "name": "nsfw",
+   "increase": 0.4282544507498538,
+   "instance": "nixos.paris",
+   "count": "7"
+  },
+  {
+   "name": "mastoadmin",
+   "increase": -0.5614603940252625,
+   "instance": "nixos.paris",
+   "count": "8"
+  }
+ ]
+}

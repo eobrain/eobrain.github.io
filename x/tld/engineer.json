@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "covid",
+   "increase": 6.518734121121836,
+   "instance": "furry.engineer",
+   "count": "5"
+  },
+  {
+   "name": "china",
+   "increase": 3.044844967596399,
+   "instance": "furry.engineer",
+   "count": "7"
+  },
+  {
+   "name": "socialist",
+   "increase": 0.4657293423300617,
+   "instance": "furry.engineer",
+   "count": "6"
+  },
+  {
+   "name": "germany",
+   "increase": 0.3995523693088696,
+   "instance": "furry.engineer",
+   "count": "7"
+  },
+  {
+   "name": "whatsapp",
+   "increase": 0.3500061994308492,
+   "instance": "furry.engineer",
+   "count": "6"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1670177025135,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 104.5322544098189,
+   "instance": "skj.ca",
+   "count": "87"
+  },
+  {
+   "name": "catsofmastodon",
+   "increase": 24.822019855877315,
+   "instance": "skj.ca",
+   "count": "48"
+  },
+  {
+   "name": "usmnt",
+   "increase": 17.221097196473142,
+   "instance": "skj.ca",
+   "count": "6"
+  },
+  {
+   "name": "saturday",
+   "increase": 16.05615999281376,
+   "instance": "skj.ca",
+   "count": "4"
+  },
+  {
+   "name": "usa",
+   "increase": 10.309422313061917,
+   "instance": "skj.ca",
+   "count": "16"
+  }
+ ]
+}

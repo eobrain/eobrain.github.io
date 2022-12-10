@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "advent",
+   "increase": 36.35738024627606,
+   "instance": "toot.berlin",
+   "count": "10"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 13.874810613783353,
+   "instance": "toot.berlin",
+   "count": "11"
+  },
+  {
+   "name": "espger",
+   "increase": 11.90453637328273,
+   "instance": "toot.berlin",
+   "count": "7"
+  },
+  {
+   "name": "china",
+   "increase": 3.969297308408062,
+   "instance": "toot.martyn.berlin",
+   "count": "9"
+  },
+  {
+   "name": "7books",
+   "increase": 3.8418716054586355,
+   "instance": "toot.martyn.berlin",
+   "count": "0"
+  }
+ ]
+}

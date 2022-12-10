@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 44.21863038614646,
+   "instance": "social.bloom.casa",
+   "count": "6"
+  },
+  {
+   "name": "sunday",
+   "increase": 31.25959801833269,
+   "instance": "convo.casa",
+   "count": "14"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 23.200070375658864,
+   "instance": "convo.casa",
+   "count": "9"
+  },
+  {
+   "name": "7libros",
+   "increase": 21.346065221058698,
+   "instance": "chilemasto.casa",
+   "count": "38"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 13.668975673374035,
+   "instance": "convo.casa",
+   "count": "2"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 11.92036103317972,
+   "instance": "loli.best",
+   "count": "22"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 2.4630075255067716,
+   "instance": "loli.best",
+   "count": "22"
+  },
+  {
+   "name": "chinaprotest",
+   "increase": 1.6420050170045144,
+   "instance": "loli.best",
+   "count": "10"
+  },
+  {
+   "name": "a4revolution",
+   "increase": 0.8210025085022572,
+   "instance": "loli.best",
+   "count": "8"
+  },
+  {
+   "name": "白纸运动",
+   "increase": 0.8210025085022572,
+   "instance": "loli.best",
+   "count": "7"
+  }
+ ]
+}

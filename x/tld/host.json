@@ -1,0 +1,36 @@
+{
+ "date": 1669652323941,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 292.51021014225444,
+   "instance": "esperanto.masto.host",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 212.4392312698336,
+   "instance": "journa.host",
+   "count": "9"
+  },
+  {
+   "name": "sunday",
+   "increase": 112.56404794104654,
+   "instance": "chavie.masto.host",
+   "count": "7"
+  },
+  {
+   "name": "china",
+   "increase": 77.74311084439775,
+   "instance": "karlspace.masto.host",
+   "count": "9"
+  },
+  {
+   "name": "7libros",
+   "increase": 75.67959109940615,
+   "instance": "loa.masto.host",
+   "count": "41"
+  }
+ ]
+}

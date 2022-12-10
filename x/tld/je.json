@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 2.546683729708016,
+   "instance": "z.je",
+   "count": "4"
+  },
+  {
+   "name": "blackmastodon",
+   "increase": 1.1329934172799367,
+   "instance": "z.je",
+   "count": "1"
+  },
+  {
+   "name": "landscape",
+   "increase": 0.4740299250357518,
+   "instance": "z.je",
+   "count": "6"
+  },
+  {
+   "name": "amwriting",
+   "increase": -0.1669678084095576,
+   "instance": "z.je",
+   "count": "5"
+  },
+  {
+   "name": "nhs",
+   "increase": -0.18756256953025807,
+   "instance": "z.je",
+   "count": "7"
+  }
+ ]
+}

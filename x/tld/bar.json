@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 48.05408317300339,
+   "instance": "the.voiceover.bar",
+   "count": "16"
+  },
+  {
+   "name": "china",
+   "increase": 31.809502725594733,
+   "instance": "alive.bar",
+   "count": "57"
+  },
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 17.346329940103367,
+   "instance": "alive.bar",
+   "count": "38"
+  },
+  {
+   "name": "kleinekunstklasse",
+   "increase": 11.856153642911366,
+   "instance": "the.voiceover.bar",
+   "count": "11"
+  },
+  {
+   "name": "artist",
+   "increase": 11.596206096920909,
+   "instance": "the.voiceover.bar",
+   "count": "14"
+  }
+ ]
+}

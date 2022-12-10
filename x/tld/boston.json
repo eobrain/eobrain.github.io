@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 53.8233349573709,
+   "instance": "better.boston",
+   "count": "37"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 46.135826036941374,
+   "instance": "better.boston",
+   "count": "10"
+  },
+  {
+   "name": "china",
+   "increase": 28.19801303859247,
+   "instance": "better.boston",
+   "count": "101"
+  },
+  {
+   "name": "sunday",
+   "increase": 20.764227778969065,
+   "instance": "better.boston",
+   "count": "10"
+  },
+  {
+   "name": "introduction",
+   "increase": 8.091444897718056,
+   "instance": "mastodon.boston",
+   "count": "27"
+  }
+ ]
+}

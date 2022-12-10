@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 265.75159718044904,
+   "instance": "masto.ai",
+   "count": "84"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 146.513024498418,
+   "instance": "mstdn.ai",
+   "count": "5"
+  },
+  {
+   "name": "sunday",
+   "increase": 129.190831281946,
+   "instance": "s.notk.ai",
+   "count": "6"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 10.754417986998625,
+   "instance": "s.notk.ai",
+   "count": "1"
+  },
+  {
+   "name": "shanghai",
+   "increase": 4.821609511304191,
+   "instance": "mstdn.ai",
+   "count": "3"
+  }
+ ]
+}

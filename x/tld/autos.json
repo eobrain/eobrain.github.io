@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "libros",
+   "increase": 20.09154129506523,
+   "instance": "weird.autos",
+   "count": "3"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 16.754209043848878,
+   "instance": "weird.autos",
+   "count": "12"
+  },
+  {
+   "name": "booktodon",
+   "increase": 8.225487453789336,
+   "instance": "weird.autos",
+   "count": "1"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 0.4105012542511286,
+   "instance": "weird.autos",
+   "count": "17"
+  },
+  {
+   "name": "mondaymotivation",
+   "increase": -0.03976571931217236,
+   "instance": "weird.autos",
+   "count": "5"
+  }
+ ]
+}

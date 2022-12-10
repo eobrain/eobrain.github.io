@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "food",
+   "increase": 5.209885323574305,
+   "instance": "truthsocial.co.in",
+   "count": "1"
+  },
+  {
+   "name": "horror",
+   "increase": 3.867078730377317,
+   "instance": "truthsocial.co.in",
+   "count": "4"
+  },
+  {
+   "name": "infosec",
+   "increase": 2.3281637895323106,
+   "instance": "toot.techbeat.in",
+   "count": "7"
+  },
+  {
+   "name": "musk",
+   "increase": 2.259624398970309,
+   "instance": "masto.al2.in",
+   "count": "3"
+  },
+  {
+   "name": "disability",
+   "increase": 1.6840096310219774,
+   "instance": "masto.al2.in",
+   "count": "2"
+  }
+ ]
+}

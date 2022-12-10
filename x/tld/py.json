@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "sunday",
+   "increase": 9.265720414455169,
+   "instance": "mastodon.com.py",
+   "count": "11"
+  },
+  {
+   "name": "monday",
+   "increase": 0.8861615032797774,
+   "instance": "mastodon.com.py",
+   "count": "14"
+  },
+  {
+   "name": "nationaltreeweek",
+   "increase": 0.27893078572480334,
+   "instance": "mastodon.com.py",
+   "count": "8"
+  },
+  {
+   "name": "7filmstoknowme",
+   "increase": 0,
+   "instance": "mastodon.com.py",
+   "count": "37"
+  },
+  {
+   "name": "mondog",
+   "increase": -0.20643796719342977,
+   "instance": "mastodon.com.py",
+   "count": "6"
+  }
+ ]
+}

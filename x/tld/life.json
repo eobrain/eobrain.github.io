@@ -1,0 +1,36 @@
+{
+ "date": 1669652323945,
+ "total": 5,
+ "all": [
+  {
+   "name": "수성의마녀",
+   "increase": 16.263553667407137,
+   "instance": "uri.life",
+   "count": "0"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 9.285032345137946,
+   "instance": "thesix.life",
+   "count": "0"
+  },
+  {
+   "name": "advent",
+   "increase": 9.115929508076459,
+   "instance": "krefeld.life",
+   "count": "3"
+  },
+  {
+   "name": "accessibility",
+   "increase": 8.073930437987281,
+   "instance": "irrsinn.life",
+   "count": "3"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 7.6882210003278475,
+   "instance": "thesix.life",
+   "count": "5"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "7libros",
+   "increase": 39.834411511031625,
+   "instance": "lile.cl",
+   "count": "79"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 23.66538995359022,
+   "instance": "lile.cl",
+   "count": "28"
+  },
+  {
+   "name": "trans",
+   "increase": 2.2982682739854523,
+   "instance": "mastodon.halt.cl",
+   "count": "6"
+  },
+  {
+   "name": "7videojuegos",
+   "increase": 1.6420050170045144,
+   "instance": "lile.cl",
+   "count": "27"
+  },
+  {
+   "name": "mastoart",
+   "increase": 1.295635688817903,
+   "instance": "mastodon.halt.cl",
+   "count": "10"
+  }
+ ]
+}

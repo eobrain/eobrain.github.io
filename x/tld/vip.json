@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 28.70055676876368,
+   "instance": "tabletop.vip",
+   "count": "22"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 22.337120730094107,
+   "instance": "tabletop.vip",
+   "count": "2"
+  },
+  {
+   "name": "sunday",
+   "increase": 7.087918281841173,
+   "instance": "tabletop.vip",
+   "count": "11"
+  },
+  {
+   "name": "advent",
+   "increase": 6.969385136829658,
+   "instance": "tabletop.vip",
+   "count": "6"
+  },
+  {
+   "name": "cinema",
+   "increase": 3.8049478076358625,
+   "instance": "tabletop.vip",
+   "count": "17"
+  }
+ ]
+}

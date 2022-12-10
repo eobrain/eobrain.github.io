@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 34.279080061930365,
+   "instance": "sexworkisrealwork.quest",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 26.948911521552972,
+   "instance": "eocene.epochal.quest",
+   "count": "6"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 22.841280671404327,
+   "instance": "sexworkisrealwork.quest",
+   "count": "6"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 10.7941837063108,
+   "instance": "eocene.epochal.quest",
+   "count": "1"
+  },
+  {
+   "name": "china",
+   "increase": 7.4207273646106096,
+   "instance": "sexworkisrealwork.quest",
+   "count": "46"
+  }
+ ]
+}

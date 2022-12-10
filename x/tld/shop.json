@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "sunday",
+   "increase": 46.85264661958631,
+   "instance": "wandering.shop",
+   "count": "15"
+  },
+  {
+   "name": "accessibility",
+   "increase": 12.24883287582972,
+   "instance": "wandering.shop",
+   "count": "46"
+  },
+  {
+   "name": "firefox",
+   "increase": 2.1834005552785687,
+   "instance": "wandering.shop",
+   "count": "2"
+  },
+  {
+   "name": "pleroma",
+   "increase": 1.5711787747283772,
+   "instance": "wandering.shop",
+   "count": "6"
+  },
+  {
+   "name": "metaverse",
+   "increase": 1.1434434983588648,
+   "instance": "wandering.shop",
+   "count": "5"
+  }
+ ]
+}

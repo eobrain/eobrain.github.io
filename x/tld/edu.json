@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 16.090986225289978,
+   "instance": "mastodon.mit.edu",
+   "count": "16"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 8.344784611725853,
+   "instance": "mastodon.mit.edu",
+   "count": "3"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 0.8210025085022572,
+   "instance": "mastodon.mit.edu",
+   "count": "33"
+  },
+  {
+   "name": "gouache",
+   "increase": 0.24644731400722675,
+   "instance": "mastodon.mit.edu",
+   "count": "5"
+  },
+  {
+   "name": "monday",
+   "increase": 0.1396990135392333,
+   "instance": "mastodon.mit.edu",
+   "count": "10"
+  }
+ ]
+}

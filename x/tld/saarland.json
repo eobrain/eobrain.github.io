@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "advent",
+   "increase": 54.781304785775575,
+   "instance": "social.saarland",
+   "count": "17"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 24.866051263303397,
+   "instance": "social.saarland",
+   "count": "14"
+  },
+  {
+   "name": "mastodon",
+   "increase": 11.888615889936318,
+   "instance": "mastodon.becking.saarland",
+   "count": "5"
+  },
+  {
+   "name": "espger",
+   "increase": 11.362464650505274,
+   "instance": "social.saarland",
+   "count": "5"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 0.8210025085022572,
+   "instance": "social.saarland",
+   "count": "14"
+  }
+ ]
+}

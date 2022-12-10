@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 79.17527379110544,
+   "instance": "union.place",
+   "count": "58"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 56.04706800648337,
+   "instance": "union.place",
+   "count": "10"
+  },
+  {
+   "name": "7libros",
+   "increase": 12.72553888178499,
+   "instance": "union.place",
+   "count": "12"
+  },
+  {
+   "name": "accessibility",
+   "increase": 7.77383378373476,
+   "instance": "pancake.place",
+   "count": "6"
+  },
+  {
+   "name": "covid19",
+   "increase": 2.021336338310042,
+   "instance": "pancake.place",
+   "count": "2"
+  }
+ ]
+}

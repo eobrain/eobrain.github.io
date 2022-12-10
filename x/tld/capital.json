@@ -1,0 +1,18 @@
+{
+ "date": 1669652323952,
+ "total": 2,
+ "all": [
+  {
+   "name": "cooking",
+   "increase": -0.14288252778790245,
+   "instance": "burn.capital",
+   "count": "4"
+  },
+  {
+   "name": "activitypub",
+   "increase": -2.5349918643422735,
+   "instance": "burn.capital",
+   "count": "6"
+  }
+ ]
+}

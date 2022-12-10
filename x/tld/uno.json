@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "photography",
+   "increase": 252.12994338275786,
+   "instance": "mastodon.uno",
+   "count": "547"
+  },
+  {
+   "name": "mastodon",
+   "increase": 181.49070917757328,
+   "instance": "mastodon.uno",
+   "count": "349"
+  },
+  {
+   "name": "art",
+   "increase": 125.77992794295011,
+   "instance": "mastodon.uno",
+   "count": "257"
+  },
+  {
+   "name": "music",
+   "increase": 107.55132861379569,
+   "instance": "mastodon.uno",
+   "count": "188"
+  },
+  {
+   "name": "mastoart",
+   "increase": 89.89977468099714,
+   "instance": "mastodon.uno",
+   "count": "221"
+  }
+ ]
+}

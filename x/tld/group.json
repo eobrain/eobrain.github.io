@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "standingstonesunday",
+   "increase": 21.857782956842218,
+   "instance": "woof.group",
+   "count": "2"
+  },
+  {
+   "name": "sunday",
+   "increase": 11.437523843647327,
+   "instance": "woof.group",
+   "count": "5"
+  },
+  {
+   "name": "china",
+   "increase": 7.214549263531542,
+   "instance": "elephant.crime.group",
+   "count": "3"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 6.86549877150064,
+   "instance": "m.refractive.group",
+   "count": "6"
+  },
+  {
+   "name": "blackcat",
+   "increase": 3.7831789123240354,
+   "instance": "queer.group",
+   "count": "0"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "date": 1670177025136,
+ "total": 2,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 3.490120521297068,
+   "instance": "freak.university",
+   "count": "4"
+  },
+  {
+   "name": "introductions",
+   "increase": -1.3695042806602924,
+   "instance": "freak.university",
+   "count": "6"
+  }
+ ]
+}

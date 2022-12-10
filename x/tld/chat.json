@@ -1,0 +1,36 @@
+{
+ "date": 1669652323943,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 169.47613245010726,
+   "instance": "algebra.chat",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 92.6388135937844,
+   "instance": "lonestar.chat",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 79.04965044984169,
+   "instance": "artisan.chat",
+   "count": "17"
+  },
+  {
+   "name": "gamedev",
+   "increase": 52.15672552166908,
+   "instance": "lonestar.chat",
+   "count": "43"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 34.03183838353151,
+   "instance": "artisan.chat",
+   "count": "1"
+  }
+ ]
+}

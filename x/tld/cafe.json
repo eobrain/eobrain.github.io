@@ -1,0 +1,36 @@
+{
+ "date": 1669652323941,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 262.5249561639666,
+   "instance": "freeside.cafe",
+   "count": "96"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 219.9892540528478,
+   "instance": "magincia.cafe",
+   "count": "9"
+  },
+  {
+   "name": "advent",
+   "increase": 187.67190388806122,
+   "instance": "magincia.cafe",
+   "count": "6"
+  },
+  {
+   "name": "sunday",
+   "increase": 126.18403231333683,
+   "instance": "synapse.cafe",
+   "count": "8"
+  },
+  {
+   "name": "espger",
+   "increase": 68.25527504905597,
+   "instance": "troet.cafe",
+   "count": "18"
+  }
+ ]
+}

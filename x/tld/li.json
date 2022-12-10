@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 46.26633693201439,
+   "instance": "mastodon.elon.li",
+   "count": "17"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 22.911727857615816,
+   "instance": "mastodon.elon.li",
+   "count": "12"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 7.139438137362812,
+   "instance": "mastodon.elon.li",
+   "count": "2"
+  },
+  {
+   "name": "introdução",
+   "increase": 5.505998198390815,
+   "instance": "mastodon.elon.li",
+   "count": "5"
+  },
+  {
+   "name": "caturday",
+   "increase": 4.230718995911957,
+   "instance": "mastodon.elon.li",
+   "count": "17"
+  }
+ ]
+}

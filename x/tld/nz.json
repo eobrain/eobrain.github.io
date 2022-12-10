@@ -1,0 +1,36 @@
+{
+ "date": 1669652323945,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 229.88201588309937,
+   "instance": "mastodon.nz",
+   "count": "67"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 122.51115413495802,
+   "instance": "cloudisland.nz",
+   "count": "4"
+  },
+  {
+   "name": "sunday",
+   "increase": 103.20777368843802,
+   "instance": "so.fnky.nz",
+   "count": "4"
+  },
+  {
+   "name": "shakespearesunday",
+   "increase": 24.71645205139964,
+   "instance": "mastodon.nz",
+   "count": "3"
+  },
+  {
+   "name": "china",
+   "increase": 13.866963159577463,
+   "instance": "cloudisland.nz",
+   "count": "50"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "foss",
+   "increase": 3.022100351235042,
+   "instance": "bikesare.cool",
+   "count": "1"
+  },
+  {
+   "name": "introduction",
+   "increase": 1.6770588393505985,
+   "instance": "skeleton.cool",
+   "count": "8"
+  },
+  {
+   "name": "autokorrektur",
+   "increase": 1.5195557668882227,
+   "instance": "physik.cool",
+   "count": "3"
+  },
+  {
+   "name": "python",
+   "increase": 1.154211218834329,
+   "instance": "bikesare.cool",
+   "count": "0"
+  },
+  {
+   "name": "mastoadmin",
+   "increase": -0.557970981431243,
+   "instance": "bikesare.cool",
+   "count": "5"
+  }
+ ]
+}

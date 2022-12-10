@@ -1,0 +1,24 @@
+{
+ "date": 1669652323951,
+ "total": 3,
+ "all": [
+  {
+   "name": "politics",
+   "increase": 3.079808932606923,
+   "instance": "law.builders",
+   "count": "27"
+  },
+  {
+   "name": "openscience",
+   "increase": -2.2045836724810717,
+   "instance": "law.builders",
+   "count": "10"
+  },
+  {
+   "name": "introductions",
+   "increase": -5.0219625508693255,
+   "instance": "law.builders",
+   "count": "28"
+  }
+ ]
+}

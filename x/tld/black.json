@@ -1,0 +1,30 @@
+{
+ "date": 1669652323951,
+ "total": 4,
+ "all": [
+  {
+   "name": "trans",
+   "increase": 4.31253564073589,
+   "instance": "mastodon.stack.black",
+   "count": "2"
+  },
+  {
+   "name": "comics",
+   "increase": 3.0377547713441695,
+   "instance": "mastodon.stack.black",
+   "count": "1"
+  },
+  {
+   "name": "ttrpg",
+   "increase": 1.7656389918603033,
+   "instance": "mastodon.stack.black",
+   "count": "3"
+  },
+  {
+   "name": "solarpunk",
+   "increase": 1.4343629210207496,
+   "instance": "mastodon.stack.black",
+   "count": "1"
+  }
+ ]
+}

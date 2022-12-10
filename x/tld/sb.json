@@ -1,0 +1,36 @@
+{
+ "date": 1670177025136,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 92.05449362948788,
+   "instance": "mastodon.im.sb",
+   "count": "32"
+  },
+  {
+   "name": "introduction",
+   "increase": 15.751950135494013,
+   "instance": "mastodon.im.sb",
+   "count": "22"
+  },
+  {
+   "name": "twittermigration",
+   "increase": 3.4354942489592055,
+   "instance": "mastodon.im.sb",
+   "count": "1"
+  },
+  {
+   "name": "art",
+   "increase": 1.9417741913516422,
+   "instance": "mastodon.im.sb",
+   "count": "2"
+  },
+  {
+   "name": "gnome",
+   "increase": -1.1068361288895876,
+   "instance": "mastodon.im.sb",
+   "count": "7"
+  }
+ ]
+}

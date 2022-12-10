@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "shanghai",
+   "increase": 8.210025085022574,
+   "instance": "skoop.hu",
+   "count": "8"
+  },
+  {
+   "name": "mutualaidrequest",
+   "increase": 6.817604507175564,
+   "instance": "skoop.hu",
+   "count": "0"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 6.7674194151185185,
+   "instance": "skoop.hu",
+   "count": "2"
+  },
+  {
+   "name": "accessibility",
+   "increase": 4.047846307316229,
+   "instance": "mastodon.elte.hu",
+   "count": "4"
+  },
+  {
+   "name": "landscape",
+   "increase": 2.6076979589086395,
+   "instance": "mastodon.elte.hu",
+   "count": "1"
+  }
+ ]
+}

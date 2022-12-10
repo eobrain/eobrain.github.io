@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "wildflowerhour",
+   "increase": 5.948707734348227,
+   "instance": "mstdn.vodka",
+   "count": "1"
+  },
+  {
+   "name": "china",
+   "increase": 1.9816957097438461,
+   "instance": "mstdn.vodka",
+   "count": "15"
+  },
+  {
+   "name": "monday",
+   "increase": 0.6451940751814672,
+   "instance": "mstdn.vodka",
+   "count": "13"
+  },
+  {
+   "name": "7filmstoknowme",
+   "increase": 0,
+   "instance": "mstdn.vodka",
+   "count": "12"
+  },
+  {
+   "name": "とは",
+   "increase": -0.14098220084457225,
+   "instance": "mstdn.vodka",
+   "count": "6"
+  }
+ ]
+}

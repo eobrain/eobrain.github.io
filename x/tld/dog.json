@@ -1,0 +1,12 @@
+{
+ "date": 1670177025136,
+ "total": 1,
+ "all": [
+  {
+   "name": "cats",
+   "increase": -0.8817104824901077,
+   "instance": "federated.glacier.dog",
+   "count": "6"
+  }
+ ]
+}

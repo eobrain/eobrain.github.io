@@ -1,0 +1,36 @@
+{
+ "date": 1669652323941,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 271.31024069780887,
+   "instance": "rejoiner.eu",
+   "count": "9"
+  },
+  {
+   "name": "introduction",
+   "increase": 222.18813982943266,
+   "instance": "me.syslog.eu",
+   "count": "35"
+  },
+  {
+   "name": "sunday",
+   "increase": 171.11732706508838,
+   "instance": "mastodonserver.eu",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 167.49424902190623,
+   "instance": "social.kw8.eu",
+   "count": "9"
+  },
+  {
+   "name": "mastodon",
+   "increase": 64.20888507514343,
+   "instance": "mastodon.snakenode.eu",
+   "count": "8"
+  }
+ ]
+}

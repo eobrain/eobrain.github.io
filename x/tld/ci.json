@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "shanghai",
+   "increase": 17.873973443139057,
+   "instance": "me.ns.ci",
+   "count": "14"
+  },
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 17.625260725828184,
+   "instance": "me.ns.ci",
+   "count": "31"
+  },
+  {
+   "name": "china",
+   "increase": 14.599931779133996,
+   "instance": "me.ns.ci",
+   "count": "27"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 9.470875194343254,
+   "instance": "me.ns.ci",
+   "count": "1"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 9.441528847775963,
+   "instance": "me.ns.ci",
+   "count": "58"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "date": 1669652323952,
+ "total": 2,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 286.3244797296875,
+   "instance": "skunk.agency",
+   "count": "350"
+  },
+  {
+   "name": "caturday",
+   "increase": -6.989546273537513,
+   "instance": "skunk.agency",
+   "count": "41"
+  }
+ ]
+}

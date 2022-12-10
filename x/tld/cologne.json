@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "advent",
+   "increase": 99.36735600008964,
+   "instance": "social.cologne",
+   "count": "24"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 60.19196637297296,
+   "instance": "social.cologne",
+   "count": "50"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 42.62072754850594,
+   "instance": "social.cologne",
+   "count": "12"
+  },
+  {
+   "name": "espger",
+   "increase": 42.01848825081359,
+   "instance": "social.cologne",
+   "count": "14"
+  },
+  {
+   "name": "sunday",
+   "increase": 27.709257989094052,
+   "instance": "social.cologne",
+   "count": "13"
+  }
+ ]
+}

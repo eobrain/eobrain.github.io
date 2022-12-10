@@ -1,0 +1,36 @@
+{
+ "date": 1669652323939,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 721.2432262481703,
+   "instance": "thetooter.co.uk",
+   "count": "90"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 512.5646421934671,
+   "instance": "mastodon.me.uk",
+   "count": "7"
+  },
+  {
+   "name": "sunday",
+   "increase": 500.2600089111085,
+   "instance": "chat-node.uk",
+   "count": "9"
+  },
+  {
+   "name": "china",
+   "increase": 107.71433064148366,
+   "instance": "frinsocial.uk",
+   "count": "9"
+  },
+  {
+   "name": "mastodon",
+   "increase": 93.01946392139345,
+   "instance": "avatastic.uk",
+   "count": "7"
+  }
+ ]
+}

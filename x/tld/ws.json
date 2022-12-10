@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "mastodon",
+   "increase": 52.80595726141195,
+   "instance": "socialpa.ws",
+   "count": "54"
+  },
+  {
+   "name": "introduction",
+   "increase": 20.34080119144477,
+   "instance": "socialpa.ws",
+   "count": "9"
+  },
+  {
+   "name": "advent",
+   "increase": 13.80643579220798,
+   "instance": "masto.ws",
+   "count": "4"
+  },
+  {
+   "name": "photography",
+   "increase": 13.312139153578102,
+   "instance": "socialpa.ws",
+   "count": "1"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 7.817552574148884,
+   "instance": "masto.ws",
+   "count": "2"
+  }
+ ]
+}

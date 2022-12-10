@@ -1,0 +1,36 @@
+{
+ "date": 1669652323945,
+ "total": 5,
+ "all": [
+  {
+   "name": "7kirjaa",
+   "increase": 84.56325837573252,
+   "instance": "eliitin-some.fi",
+   "count": "7"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 59.8711400263449,
+   "instance": "social.lahevirta.fi",
+   "count": "3"
+  },
+  {
+   "name": "sunday",
+   "increase": 39.71787242218075,
+   "instance": "mastodo.fi",
+   "count": "2"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 33.86459502824323,
+   "instance": "hacks.fi",
+   "count": "5"
+  },
+  {
+   "name": "kirjamastodon",
+   "increase": 32.1024201804351,
+   "instance": "eliitin-some.fi",
+   "count": "6"
+  }
+ ]
+}

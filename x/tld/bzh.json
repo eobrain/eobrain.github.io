@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "starwars",
+   "increase": 4.741122365279898,
+   "instance": "mstdn.sidh.bzh",
+   "count": "15"
+  },
+  {
+   "name": "anime",
+   "increase": 4.59247886077608,
+   "instance": "mstdn.sidh.bzh",
+   "count": "1"
+  },
+  {
+   "name": "dccomics",
+   "increase": 4.105012542511287,
+   "instance": "mstdn.sidh.bzh",
+   "count": "0"
+  },
+  {
+   "name": "manga",
+   "increase": 3.5982342935637126,
+   "instance": "mstdn.sidh.bzh",
+   "count": "0"
+  },
+  {
+   "name": "drawing",
+   "increase": 3.293146219448561,
+   "instance": "mstdn.sidh.bzh",
+   "count": "2"
+  }
+ ]
+}

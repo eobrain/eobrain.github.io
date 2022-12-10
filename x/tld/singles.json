@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "meme",
+   "increase": 5.797721825953186,
+   "instance": "yharnam.singles",
+   "count": "2"
+  },
+  {
+   "name": "movies",
+   "increase": 3.4227588840766003,
+   "instance": "yharnam.singles",
+   "count": "2"
+  },
+  {
+   "name": "youtube",
+   "increase": 3.2000638268573542,
+   "instance": "yharnam.singles",
+   "count": "4"
+  },
+  {
+   "name": "cybermonday",
+   "increase": 0.4949721797114285,
+   "instance": "yharnam.singles",
+   "count": "8"
+  },
+  {
+   "name": "advent",
+   "increase": 0.4105012542511286,
+   "instance": "yharnam.singles",
+   "count": "10"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 84.76189626364499,
+   "instance": "voiceover.actor",
+   "count": "52"
+  },
+  {
+   "name": "photography",
+   "increase": 43.20742717901807,
+   "instance": "masto.actor",
+   "count": "143"
+  },
+  {
+   "name": "horror",
+   "increase": 21.21178861647342,
+   "instance": "masto.actor",
+   "count": "65"
+  },
+  {
+   "name": "mastoart",
+   "increase": 13.150511295180106,
+   "instance": "masto.actor",
+   "count": "59"
+  },
+  {
+   "name": "music",
+   "increase": 12.120858300227948,
+   "instance": "masto.actor",
+   "count": "70"
+  }
+ ]
+}

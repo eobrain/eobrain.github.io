@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "sunday",
+   "increase": 26.498644547989663,
+   "instance": "mastodon.sbs",
+   "count": "6"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 23.267001023788005,
+   "instance": "mastodon.sbs",
+   "count": "10"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 15.755492231154225,
+   "instance": "mastodon.sbs",
+   "count": "1"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 10.7941837063108,
+   "instance": "mastodon.sbs",
+   "count": "1"
+  },
+  {
+   "name": "monday",
+   "increase": 1.7021725919194033,
+   "instance": "mastodon.sbs",
+   "count": "48"
+  }
+ ]
+}

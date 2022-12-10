@@ -1,0 +1,24 @@
+{
+ "date": 1669652323952,
+ "total": 3,
+ "all": [
+  {
+   "name": "lgbtq",
+   "increase": 1.906946034097551,
+   "instance": "zeal.center",
+   "count": "4"
+  },
+  {
+   "name": "linux",
+   "increase": -3.6827587199611456,
+   "instance": "zeal.center",
+   "count": "17"
+  },
+  {
+   "name": "cats",
+   "increase": -5.173785654144195,
+   "instance": "zeal.center",
+   "count": "6"
+  }
+ ]
+}

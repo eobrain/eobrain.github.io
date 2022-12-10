@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 9.441528847775958,
+   "instance": "mstdn.plus",
+   "count": "11"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 8.913013622893653,
+   "instance": "mstdn.plus",
+   "count": "4"
+  },
+  {
+   "name": "china",
+   "increase": 7.1728776733477595,
+   "instance": "mstdn.plus",
+   "count": "31"
+  },
+  {
+   "name": "sunday",
+   "increase": 4.791255524310267,
+   "instance": "mstdn.plus",
+   "count": "3"
+  },
+  {
+   "name": "fedigiftshop",
+   "increase": 4.120802391183441,
+   "instance": "mstdn.plus",
+   "count": "15"
+  }
+ ]
+}

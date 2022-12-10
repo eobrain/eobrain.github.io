@@ -1,0 +1,24 @@
+{
+ "date": 1669652323951,
+ "total": 3,
+ "all": [
+  {
+   "name": "cycling",
+   "increase": -0.6806288783700714,
+   "instance": "besocial.co.za",
+   "count": "6"
+  },
+  {
+   "name": "privacy",
+   "increase": -2.526522083437504,
+   "instance": "besocial.co.za",
+   "count": "11"
+  },
+  {
+   "name": "tech",
+   "increase": -3.2085143078473672,
+   "instance": "besocial.co.za",
+   "count": "10"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323940,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 503.8478668028563,
+   "instance": "uggs.io",
+   "count": "89"
+  },
+  {
+   "name": "introduction",
+   "increase": 346.4954065419318,
+   "instance": "hollings.io",
+   "count": "9"
+  },
+  {
+   "name": "sunday",
+   "increase": 320.5246487236378,
+   "instance": "mastodon.sysctl.io",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 310.44199705167057,
+   "instance": "mastodon.sysctl.io",
+   "count": "5"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 89.53116827391446,
+   "instance": "sundet.io",
+   "count": "2"
+  }
+ ]
+}

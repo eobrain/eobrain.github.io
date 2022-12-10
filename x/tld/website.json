@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 44.05149089691152,
+   "instance": "skull.website",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 24.117349878857564,
+   "instance": "bird.website",
+   "count": "7"
+  },
+  {
+   "name": "booktodon",
+   "increase": 9.848404510830527,
+   "instance": "bird.website",
+   "count": "1"
+  },
+  {
+   "name": "sunday",
+   "increase": 9.309958379249633,
+   "instance": "bird.website",
+   "count": "8"
+  },
+  {
+   "name": "7libros",
+   "increase": 7.389022576520317,
+   "instance": "bird.website",
+   "count": "0"
+  }
+ ]
+}

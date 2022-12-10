@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 40.36835468879617,
+   "instance": "mastodon.express",
+   "count": "18"
+  },
+  {
+   "name": "photography",
+   "increase": 39.81564588021753,
+   "instance": "porkchop.express",
+   "count": "105"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 31.359012138179413,
+   "instance": "mastodon.express",
+   "count": "8"
+  },
+  {
+   "name": "gamedev",
+   "increase": 13.926221416190788,
+   "instance": "mastodon.express",
+   "count": "42"
+  },
+  {
+   "name": "accessibility",
+   "increase": 4.641568877157008,
+   "instance": "cheekibreeki.express",
+   "count": "5"
+  }
+ ]
+}

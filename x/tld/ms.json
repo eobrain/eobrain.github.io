@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "books",
+   "increase": 10.586062271054772,
+   "instance": "bookwor.ms",
+   "count": "56"
+  },
+  {
+   "name": "accessibility",
+   "increase": 1.6516195316542799,
+   "instance": "bookwor.ms",
+   "count": "16"
+  },
+  {
+   "name": "tea",
+   "increase": 1.5069180103958466,
+   "instance": "bookwor.ms",
+   "count": "1"
+  },
+  {
+   "name": "tech",
+   "increase": 0.36583820116103816,
+   "instance": "bookwor.ms",
+   "count": "8"
+  },
+  {
+   "name": "gaming",
+   "increase": 0.17347000544739366,
+   "instance": "bookwor.ms",
+   "count": "6"
+  }
+ ]
+}

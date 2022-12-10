@@ -1,0 +1,36 @@
+{
+ "date": 1669652323942,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 216.10289189299527,
+   "instance": "snug.town",
+   "count": "7"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 152.88917230547491,
+   "instance": "evidence.town",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 105.62867309074143,
+   "instance": "birds.town",
+   "count": "8"
+  },
+  {
+   "name": "photography",
+   "increase": 40.46355965653403,
+   "instance": "democracy.town",
+   "count": "211"
+  },
+  {
+   "name": "china",
+   "increase": 33.519347352162534,
+   "instance": "comics.town",
+   "count": "9"
+  }
+ ]
+}

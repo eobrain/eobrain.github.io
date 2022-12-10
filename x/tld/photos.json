@@ -1,0 +1,24 @@
+{
+ "date": 1669652323952,
+ "total": 3,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 11.686716525910349,
+   "instance": "mouse.photos",
+   "count": "14"
+  },
+  {
+   "name": "knitting",
+   "increase": 2.2238424590941412,
+   "instance": "mouse.photos",
+   "count": "0"
+  },
+  {
+   "name": "twitter",
+   "increase": 1.5859302746398507,
+   "instance": "mouse.photos",
+   "count": "0"
+  }
+ ]
+}

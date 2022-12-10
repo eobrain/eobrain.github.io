@@ -1,0 +1,36 @@
+{
+ "date": 1669652323942,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 384.4727675699829,
+   "instance": "mastodon.wolfschouten.nl",
+   "count": "92"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 221.49955796665176,
+   "instance": "mastodon.nl",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 151.36188279094299,
+   "instance": "mastodon.nl",
+   "count": "9"
+  },
+  {
+   "name": "china",
+   "increase": 71.97381659937358,
+   "instance": "mastodon.ericbeckers.nl",
+   "count": "8"
+  },
+  {
+   "name": "advent",
+   "increase": 60.19435516596259,
+   "instance": "rxtx.nl",
+   "count": "9"
+  }
+ ]
+}

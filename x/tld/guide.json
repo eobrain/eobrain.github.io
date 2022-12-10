@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "standingstonesunday",
+   "increase": -0.3979004637559278,
+   "instance": "soc.stepman.guide",
+   "count": "68"
+  },
+  {
+   "name": "sunday",
+   "increase": -0.629892692555599,
+   "instance": "soc.stepman.guide",
+   "count": "46"
+  },
+  {
+   "name": "silentsunday",
+   "increase": -0.9408704169783704,
+   "instance": "soc.stepman.guide",
+   "count": "141"
+  },
+  {
+   "name": "monday",
+   "increase": -1.9648462876183919,
+   "instance": "soc.stepman.guide",
+   "count": "41"
+  },
+  {
+   "name": "fotomontag",
+   "increase": -3.620869499943432,
+   "instance": "soc.stepman.guide",
+   "count": "37"
+  }
+ ]
+}

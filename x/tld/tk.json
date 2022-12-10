@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "gamedev",
+   "increase": 70.12241781037861,
+   "instance": "mastodon.wardenbypass.tk",
+   "count": "55"
+  },
+  {
+   "name": "introduction",
+   "increase": 20.736701158896768,
+   "instance": "mastodon.rainer-zufall.tk",
+   "count": "41"
+  },
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 17.214759471577047,
+   "instance": "ramen-fsm.tk",
+   "count": "29"
+  },
+  {
+   "name": "上海",
+   "increase": 14.334431842709948,
+   "instance": "ramen-fsm.tk",
+   "count": "10"
+  },
+  {
+   "name": "pixelart",
+   "increase": 10.46777467832274,
+   "instance": "mastodon.wardenbypass.tk",
+   "count": "30"
+  }
+ ]
+}

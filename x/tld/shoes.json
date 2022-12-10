@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "monday",
+   "increase": 0.8003554574874612,
+   "instance": "toot.shoes",
+   "count": "67"
+  },
+  {
+   "name": "mondog",
+   "increase": 0.45364736934778094,
+   "instance": "toot.shoes",
+   "count": "23"
+  },
+  {
+   "name": "mondaymorning",
+   "increase": 0.4105012542511286,
+   "instance": "toot.shoes",
+   "count": "15"
+  },
+  {
+   "name": "7filmstoknowme",
+   "increase": 0,
+   "instance": "toot.shoes",
+   "count": "55"
+  },
+  {
+   "name": "mondaymotivation",
+   "increase": -0.23987750317837409,
+   "instance": "toot.shoes",
+   "count": "21"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 18.18353376273651,
+   "instance": "bird.rodeo",
+   "count": "5"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 13.784808226254889,
+   "instance": "bird.rodeo",
+   "count": "5"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 10.687872295729836,
+   "instance": "robot.rodeo",
+   "count": "6"
+  },
+  {
+   "name": "sunday",
+   "increase": 6.436449599491731,
+   "instance": "robot.rodeo",
+   "count": "4"
+  },
+  {
+   "name": "mastoart",
+   "increase": 4.816859584426165,
+   "instance": "cyberspace.rodeo",
+   "count": "9"
+  }
+ ]
+}

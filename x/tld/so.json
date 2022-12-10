@@ -1,0 +1,30 @@
+{
+ "date": 1669652323951,
+ "total": 4,
+ "all": [
+  {
+   "name": "videogames",
+   "increase": 2.7057773152907623,
+   "instance": "libcyb.so",
+   "count": "2"
+  },
+  {
+   "name": "tech",
+   "increase": 0.14250865878411734,
+   "instance": "libcyb.so",
+   "count": "5"
+  },
+  {
+   "name": "fnac",
+   "increase": 0,
+   "instance": "libcyb.so",
+   "count": "6"
+  },
+  {
+   "name": "technology",
+   "increase": -0.33230493595879995,
+   "instance": "libcyb.so",
+   "count": "5"
+  }
+ ]
+}

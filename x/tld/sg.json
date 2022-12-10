@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "ttrpg",
+   "increase": 0.8906321808516173,
+   "instance": "toot.sg",
+   "count": "3"
+  },
+  {
+   "name": "twitter",
+   "increase": -1.420058141248309,
+   "instance": "toot.sg",
+   "count": "5"
+  },
+  {
+   "name": "food",
+   "increase": -1.4502362652292462,
+   "instance": "toot.sg",
+   "count": "6"
+  },
+  {
+   "name": "photomonday",
+   "increase": -2.084338632718185,
+   "instance": "toot.sg",
+   "count": "8"
+  },
+  {
+   "name": "science",
+   "increase": -3.0080262468700045,
+   "instance": "toot.sg",
+   "count": "5"
+  }
+ ]
+}

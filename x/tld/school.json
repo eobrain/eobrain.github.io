@@ -1,0 +1,30 @@
+{
+ "date": 1669652323951,
+ "total": 4,
+ "all": [
+  {
+   "name": "neurodivergent",
+   "increase": -0.26081264601531284,
+   "instance": "mastodon.shitpost.school",
+   "count": "10"
+  },
+  {
+   "name": "writer",
+   "increase": -1.0739314480493232,
+   "instance": "mastodon.shitpost.school",
+   "count": "6"
+  },
+  {
+   "name": "adhd",
+   "increase": -1.1958972787394195,
+   "instance": "mastodon.shitpost.school",
+   "count": "22"
+  },
+  {
+   "name": "actuallyautistic",
+   "increase": -3.3682195254444993,
+   "instance": "mastodon.shitpost.school",
+   "count": "13"
+  }
+ ]
+}

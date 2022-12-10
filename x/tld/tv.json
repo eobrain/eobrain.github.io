@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 41.97324264559249,
+   "instance": "mastodon.theshowshow.tv",
+   "count": "15"
+  },
+  {
+   "name": "sunday",
+   "increase": 29.315642052363284,
+   "instance": "mastodon.theshowshow.tv",
+   "count": "12"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 21.42297835204567,
+   "instance": "mastodon.theshowshow.tv",
+   "count": "5"
+  },
+  {
+   "name": "introduction",
+   "increase": 15.9321662618081,
+   "instance": "moderators.tv",
+   "count": "23"
+  },
+  {
+   "name": "gaming",
+   "increase": 7.150947435027623,
+   "instance": "blahblahblah.omfg.tv",
+   "count": "8"
+  }
+ ]
+}

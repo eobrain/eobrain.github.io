@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 21.935684071473677,
+   "instance": "links.potsda.mn",
+   "count": "40"
+  },
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 12.68345582614247,
+   "instance": "acg.mn",
+   "count": "25"
+  },
+  {
+   "name": "advent",
+   "increase": 10.7606925941666,
+   "instance": "links.potsda.mn",
+   "count": "2"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 9.285032345137946,
+   "instance": "acg.mn",
+   "count": "0"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 9.09918949593264,
+   "instance": "acg.mn",
+   "count": "5"
+  }
+ ]
+}

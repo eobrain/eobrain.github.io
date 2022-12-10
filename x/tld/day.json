@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "wildflowerhour",
+   "increase": 18.739161983409108,
+   "instance": "echoes.stolen.day",
+   "count": "0"
+  },
+  {
+   "name": "china",
+   "increase": 14.828813651404296,
+   "instance": "echoes.stolen.day",
+   "count": "6"
+  },
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 12.946596763195117,
+   "instance": "mastodon.0ne.day",
+   "count": "23"
+  },
+  {
+   "name": "brexit",
+   "increase": 10.539391135538205,
+   "instance": "echoes.stolen.day",
+   "count": "3"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 9.527719493561207,
+   "instance": "mastodon.0ne.day",
+   "count": "6"
+  }
+ ]
+}

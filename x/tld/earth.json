@@ -1,0 +1,36 @@
+{
+ "date": 1669652323945,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 45.341551924236484,
+   "instance": "federated.earth",
+   "count": "6"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 43.93230314895664,
+   "instance": "mastodon.floe.earth",
+   "count": "6"
+  },
+  {
+   "name": "sunday",
+   "increase": 17.997415366652483,
+   "instance": "mastodon.floe.earth",
+   "count": "2"
+  },
+  {
+   "name": "socialistsunday",
+   "increase": 16.51733480516821,
+   "instance": "mastodon.floe.earth",
+   "count": "1"
+  },
+  {
+   "name": "caturday",
+   "increase": 12.443580688490187,
+   "instance": "feed.victor.earth",
+   "count": "4"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "mutualaidrequest",
+   "increase": 8.075265558319298,
+   "instance": "mastodon.haram.kim",
+   "count": "0"
+  },
+  {
+   "name": "mutualaid",
+   "increase": 7.26787148073886,
+   "instance": "mastodon.haram.kim",
+   "count": "1"
+  },
+  {
+   "name": "7books",
+   "increase": 5.499666471135305,
+   "instance": "mastodon.haram.kim",
+   "count": "0"
+  },
+  {
+   "name": "indieweb",
+   "increase": 4.341283754407845,
+   "instance": "mastodon.haram.kim",
+   "count": "1"
+  },
+  {
+   "name": "china",
+   "increase": 4.284529208389367,
+   "instance": "mastodon.haram.kim",
+   "count": "23"
+  }
+ ]
+}

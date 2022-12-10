@@ -1,0 +1,36 @@
+{
+ "date": 1670177025135,
+ "total": 5,
+ "all": [
+  {
+   "name": "satyrday",
+   "increase": 9.031027593524826,
+   "instance": "2c.taoetc.org",
+   "count": "7"
+  },
+  {
+   "name": "sillycuratorprompts",
+   "increase": 7.216045370004457,
+   "instance": "2c.taoetc.org",
+   "count": "1"
+  },
+  {
+   "name": "chatgpt",
+   "increase": 3.249724200605777,
+   "instance": "2c.taoetc.org",
+   "count": "3"
+  },
+  {
+   "name": "python",
+   "increase": 1.6666091151390932,
+   "instance": "2c.taoetc.org",
+   "count": "5"
+  },
+  {
+   "name": "illustration",
+   "increase": -0.26736991190073667,
+   "instance": "2c.taoetc.org",
+   "count": "11"
+  }
+ ]
+}

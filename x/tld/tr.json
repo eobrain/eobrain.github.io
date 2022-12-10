@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 30.42817613708555,
+   "instance": "mastodon.com.tr",
+   "count": "20"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 29.315642052363284,
+   "instance": "mastodon.com.tr",
+   "count": "5"
+  },
+  {
+   "name": "photomonday",
+   "increase": 2.3364265520652054,
+   "instance": "mastodon.com.tr",
+   "count": "19"
+  },
+  {
+   "name": "fotomontag",
+   "increase": 2.0716249395530193,
+   "instance": "mastodon.com.tr",
+   "count": "25"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 0.4105012542511286,
+   "instance": "mastodon.com.tr",
+   "count": "22"
+  }
+ ]
+}

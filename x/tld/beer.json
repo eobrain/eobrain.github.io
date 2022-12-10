@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "shindanmaker",
+   "increase": 21.247194183892233,
+   "instance": "mstdn.beer",
+   "count": "116"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 13.349432870918765,
+   "instance": "mstdn.beer",
+   "count": "19"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 9.672565369175679,
+   "instance": "cheese.beer",
+   "count": "66"
+  },
+  {
+   "name": "meshiyosoi",
+   "increase": 9.442760102054624,
+   "instance": "mstdn.beer",
+   "count": "0"
+  },
+  {
+   "name": "ホクホクのイモ",
+   "increase": 8.620526339273702,
+   "instance": "mstdn.beer",
+   "count": "0"
+  }
+ ]
+}

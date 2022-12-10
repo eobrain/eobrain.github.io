@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 75.80372886420515,
+   "instance": "masto.do",
+   "count": "137"
+  },
+  {
+   "name": "books",
+   "increase": 33.65169111627431,
+   "instance": "masto.do",
+   "count": "45"
+  },
+  {
+   "name": "bookstodon",
+   "increase": 20.895798247495385,
+   "instance": "masto.do",
+   "count": "40"
+  },
+  {
+   "name": "mastodon",
+   "increase": 18.151101867178184,
+   "instance": "masto.do",
+   "count": "41"
+  },
+  {
+   "name": "twittermigration",
+   "increase": 18.08692928813467,
+   "instance": "masto.do",
+   "count": "18"
+  }
+ ]
+}

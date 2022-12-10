@@ -1,0 +1,30 @@
+{
+ "date": 1669652323951,
+ "total": 4,
+ "all": [
+  {
+   "name": "startrek",
+   "increase": 3.636042208977596,
+   "instance": "williamsonday.buzz",
+   "count": "4"
+  },
+  {
+   "name": "covid",
+   "increase": 3.2582680539456677,
+   "instance": "williamsonday.buzz",
+   "count": "1"
+  },
+  {
+   "name": "science",
+   "increase": 1.3242697632957707,
+   "instance": "williamsonday.buzz",
+   "count": "6"
+  },
+  {
+   "name": "wordle",
+   "increase": -0.8549820866927424,
+   "instance": "williamsonday.buzz",
+   "count": "5"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1670177025132,
+ "total": 5,
+ "all": [
+  {
+   "name": "schenklradio",
+   "increase": 38.66138237148908,
+   "instance": "radiosocial.de",
+   "count": "2"
+  },
+  {
+   "name": "caturday",
+   "increase": 25.80744085466212,
+   "instance": "radiosocial.de",
+   "count": "10"
+  },
+  {
+   "name": "twitter",
+   "increase": 4.431007533755606,
+   "instance": "braydmedia.de",
+   "count": "5"
+  },
+  {
+   "name": "photography",
+   "increase": 2.676072780484013,
+   "instance": "braydmedia.de",
+   "count": "14"
+  },
+  {
+   "name": "backen",
+   "increase": 1.2343653410249473,
+   "instance": "radiosocial.de",
+   "count": "6"
+  }
+ ]
+}

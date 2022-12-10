@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 14.845874031614759,
+   "instance": "mastodon.skye.vg",
+   "count": "7"
+  },
+  {
+   "name": "sunday",
+   "increase": 7.389022576520317,
+   "instance": "mastodon.skye.vg",
+   "count": "6"
+  },
+  {
+   "name": "ttrpg",
+   "increase": 5.826962024821839,
+   "instance": "mastodon.skye.vg",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 4.459002521378143,
+   "instance": "mastodon.skye.vg",
+   "count": "0"
+  },
+  {
+   "name": "andor",
+   "increase": 3.6328527939332265,
+   "instance": "mastodon.skye.vg",
+   "count": "6"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "date": 1669652323952,
+ "total": 2,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 3.6208485352733426,
+   "instance": "mastodon.cab",
+   "count": "19"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 2.4630075255067716,
+   "instance": "mastodon.cab",
+   "count": "18"
+  }
+ ]
+}

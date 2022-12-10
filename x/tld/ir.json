@@ -1,0 +1,24 @@
+{
+ "date": 1669652323952,
+ "total": 3,
+ "all": [
+  {
+   "name": "tech",
+   "increase": -0.88959575686881,
+   "instance": "toot.azadehafzar.ir",
+   "count": "5"
+  },
+  {
+   "name": "lgbtq",
+   "increase": -1.0021294847236504,
+   "instance": "toot.azadehafzar.ir",
+   "count": "6"
+  },
+  {
+   "name": "fediverse",
+   "increase": -3.362585408366007,
+   "instance": "toot.azadehafzar.ir",
+   "count": "18"
+  }
+ ]
+}

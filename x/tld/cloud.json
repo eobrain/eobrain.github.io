@@ -1,0 +1,36 @@
+{
+ "date": 1669652323942,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 122.50511917927389,
+   "instance": "kibitz.cloud",
+   "count": "93"
+  },
+  {
+   "name": "sunday",
+   "increase": 84.84437057920763,
+   "instance": "mastodon.qapp.cloud",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 77.33291371960053,
+   "instance": "offworld.fedisonic.cloud",
+   "count": "6"
+  },
+  {
+   "name": "caturday",
+   "increase": 53.519145297922705,
+   "instance": "offworld.fedisonic.cloud",
+   "count": "8"
+  },
+  {
+   "name": "7libros",
+   "increase": 41.60798699656247,
+   "instance": "xarxa.cloud",
+   "count": "87"
+  }
+ ]
+}

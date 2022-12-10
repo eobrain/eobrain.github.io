@@ -1,0 +1,36 @@
+{
+ "date": 1670177025135,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 25.617037574685476,
+   "instance": "biplus.date",
+   "count": "8"
+  },
+  {
+   "name": "satyrday",
+   "increase": 9.031027593524826,
+   "instance": "biplus.date",
+   "count": "8"
+  },
+  {
+   "name": "长毛象中文使用指南",
+   "increase": 8.105619545313221,
+   "instance": "biplus.date",
+   "count": "1"
+  },
+  {
+   "name": "sillycuratorprompts",
+   "increase": 7.216045370004457,
+   "instance": "biplus.date",
+   "count": "1"
+  },
+  {
+   "name": "birdphotography",
+   "increase": 0.7019253815720532,
+   "instance": "biplus.date",
+   "count": "20"
+  }
+ ]
+}

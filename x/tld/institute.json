@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "kidlitart",
+   "increase": 3.1906253259182,
+   "instance": "occult.institute",
+   "count": "1"
+  },
+  {
+   "name": "mastoadmin",
+   "increase": 3.0519139391560035,
+   "instance": "occult.institute",
+   "count": "3"
+  },
+  {
+   "name": "kidlit",
+   "increase": 2.477653948321857,
+   "instance": "occult.institute",
+   "count": "1"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 2.446261969434671,
+   "instance": "occult.institute",
+   "count": "2"
+  },
+  {
+   "name": "histodons",
+   "increase": 0.020350279443459574,
+   "instance": "occult.institute",
+   "count": "6"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323942,
+ "total": 5,
+ "all": [
+  {
+   "name": "shindanmaker",
+   "increase": 126.87590609092153,
+   "instance": "mstdn.kemono-friends.info",
+   "count": "59"
+  },
+  {
+   "name": "ペペロンチーノチャレンジ",
+   "increase": 60.933125643709815,
+   "instance": "animal-crossing.mastportal.info",
+   "count": "0"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 50.3598760722558,
+   "instance": "mastodon.merkel.info",
+   "count": "9"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 34.2845080148126,
+   "instance": "mastodon.merkel.info",
+   "count": "5"
+  },
+  {
+   "name": "空気ガチャ",
+   "increase": 31.19809532308578,
+   "instance": "animal-crossing.mastportal.info",
+   "count": "0"
+  }
+ ]
+}

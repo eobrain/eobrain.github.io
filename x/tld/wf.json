@@ -1,0 +1,18 @@
+{
+ "date": 1669652323952,
+ "total": 2,
+ "all": [
+  {
+   "name": "science",
+   "increase": -0.6748734455824437,
+   "instance": "social.asdf.wf",
+   "count": "5"
+  },
+  {
+   "name": "linux",
+   "increase": -0.9951486984530593,
+   "instance": "social.asdf.wf",
+   "count": "5"
+  }
+ ]
+}

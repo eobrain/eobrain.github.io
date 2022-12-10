@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 55.32671087210653,
+   "instance": "masto.la",
+   "count": "19"
+  },
+  {
+   "name": "7libros",
+   "increase": 38.19240649402712,
+   "instance": "mastodon.la",
+   "count": "83"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 22.401241376110942,
+   "instance": "masto.la",
+   "count": "10"
+  },
+  {
+   "name": "china",
+   "increase": 16.135859529417736,
+   "instance": "ajin.la",
+   "count": "9"
+  },
+  {
+   "name": "sunday",
+   "increase": 12.986388991105676,
+   "instance": "masto.la",
+   "count": "9"
+  }
+ ]
+}

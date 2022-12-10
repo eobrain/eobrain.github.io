@@ -1,0 +1,36 @@
+{
+ "date": 1670177025135,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 81.18776360370859,
+   "instance": "wetdry.world",
+   "count": "75"
+  },
+  {
+   "name": "satyrday",
+   "increase": 9.852030102027086,
+   "instance": "wetdry.world",
+   "count": "9"
+  },
+  {
+   "name": "sillycuratorprompts",
+   "increase": 7.932642338797361,
+   "instance": "wetdry.world",
+   "count": "2"
+  },
+  {
+   "name": "screenshotsaturday",
+   "increase": 7.681561793166951,
+   "instance": "wetdry.world",
+   "count": "7"
+  },
+  {
+   "name": "saturday",
+   "increase": 6.4717430733216155,
+   "instance": "wetdry.world",
+   "count": "2"
+  }
+ ]
+}

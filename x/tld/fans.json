@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 79.48801559555245,
+   "instance": "washcaps.fans",
+   "count": "77"
+  },
+  {
+   "name": "blog",
+   "increase": 4.466284412105319,
+   "instance": "supernatural.fans",
+   "count": "5"
+  },
+  {
+   "name": "python",
+   "increase": -0.7882447009490008,
+   "instance": "washcaps.fans",
+   "count": "6"
+  },
+  {
+   "name": "tech",
+   "increase": -1.4600781324632006,
+   "instance": "washcaps.fans",
+   "count": "9"
+  },
+  {
+   "name": "music",
+   "increase": -4.194698858553672,
+   "instance": "washcaps.fans",
+   "count": "8"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1670177025135,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 25.143474891003397,
+   "instance": "fedilove.cyou",
+   "count": "10"
+  },
+  {
+   "name": "twittermigration",
+   "increase": 7.3151104283857435,
+   "instance": "fedilove.cyou",
+   "count": "9"
+  },
+  {
+   "name": "twitter",
+   "increase": 5.8622270719629554,
+   "instance": "fedilove.cyou",
+   "count": "6"
+  },
+  {
+   "name": "歌ってみた",
+   "increase": 1.0216850429080557,
+   "instance": "fedilove.cyou",
+   "count": "7"
+  },
+  {
+   "name": "startrek",
+   "increase": 0.49816123788838107,
+   "instance": "fedilove.cyou",
+   "count": "6"
+  }
+ ]
+}

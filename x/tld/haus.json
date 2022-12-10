@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 6.715380385216536,
+   "instance": "marrow.haus",
+   "count": "6"
+  },
+  {
+   "name": "china",
+   "increase": 2.3269648114981547,
+   "instance": "duck.haus",
+   "count": "3"
+  },
+  {
+   "name": "hashtags",
+   "increase": 1.4865161547931294,
+   "instance": "marrow.haus",
+   "count": "4"
+  },
+  {
+   "name": "autokorrektur",
+   "increase": 1.4381184573922656,
+   "instance": "morse.haus",
+   "count": "6"
+  },
+  {
+   "name": "accessibility",
+   "increase": 0.7582685589766909,
+   "instance": "duck.haus",
+   "count": "7"
+  }
+ ]
+}

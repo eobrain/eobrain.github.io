@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 6.714045264884522,
+   "instance": "thelife.boats",
+   "count": "17"
+  },
+  {
+   "name": "shanghai",
+   "increase": 3.284010034009029,
+   "instance": "thelife.boats",
+   "count": "3"
+  },
+  {
+   "name": "a11y",
+   "increase": 0.969204329230283,
+   "instance": "thelife.boats",
+   "count": "3"
+  },
+  {
+   "name": "chinaprotests",
+   "increase": 0.8210025085022572,
+   "instance": "thelife.boats",
+   "count": "8"
+  },
+  {
+   "name": "accordion",
+   "increase": 0.7644912331179846,
+   "instance": "thelife.boats",
+   "count": "7"
+  }
+ ]
+}

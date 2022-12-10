@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 287.7033003044527,
+   "instance": "mastodon.my.id",
+   "count": "5"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 35.09328914575174,
+   "instance": "toots.id",
+   "count": "9"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 33.67913159196999,
+   "instance": "toots.id",
+   "count": "7"
+  },
+  {
+   "name": "sunday",
+   "increase": 16.695791897592997,
+   "instance": "toots.id",
+   "count": "5"
+  },
+  {
+   "name": "foss",
+   "increase": 14.793835001712782,
+   "instance": "toots.id",
+   "count": "26"
+  }
+ ]
+}

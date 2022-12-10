@@ -1,0 +1,36 @@
+{
+ "date": 1669652323945,
+ "total": 5,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 170.22896579340693,
+   "instance": "social.dev-c.at",
+   "count": "72"
+  },
+  {
+   "name": "mastodon",
+   "increase": 112.58217820472251,
+   "instance": "social.dev-c.at",
+   "count": "41"
+  },
+  {
+   "name": "photography",
+   "increase": 102.80397524521615,
+   "instance": "sweetme.at",
+   "count": "221"
+  },
+  {
+   "name": "fediverse",
+   "increase": 69.40506888358712,
+   "instance": "sweetme.at",
+   "count": "169"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 49.112790192936956,
+   "instance": "social.dev-c.at",
+   "count": "5"
+  }
+ ]
+}

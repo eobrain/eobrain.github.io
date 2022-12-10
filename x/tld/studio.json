@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "mff",
+   "increase": 4.1479673200004115,
+   "instance": "awoo.studio",
+   "count": "0"
+  },
+  {
+   "name": "surveillance",
+   "increase": 2.6683847082038676,
+   "instance": "mastodon.hidupmanis.studio",
+   "count": "4"
+  },
+  {
+   "name": "author",
+   "increase": 2.4835507104682133,
+   "instance": "awoo.studio",
+   "count": "2"
+  },
+  {
+   "name": "auspol",
+   "increase": 1.8237605775878847,
+   "instance": "awoo.studio",
+   "count": "12"
+  },
+  {
+   "name": "tech",
+   "increase": 1.2601562291176691,
+   "instance": "awoo.studio",
+   "count": "5"
+  }
+ ]
+}

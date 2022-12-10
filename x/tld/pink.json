@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 10.801465953905392,
+   "instance": "hibiscus.pink",
+   "count": "21"
+  },
+  {
+   "name": "advent",
+   "increase": 9.112740449899501,
+   "instance": "hibiscus.pink",
+   "count": "4"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 4.16024063059022,
+   "instance": "hibiscus.pink",
+   "count": "3"
+  },
+  {
+   "name": "espger",
+   "increase": 4.105012542511287,
+   "instance": "hibiscus.pink",
+   "count": "3"
+  },
+  {
+   "name": "shanghai",
+   "increase": 3.6945112882601583,
+   "instance": "hibiscus.pink",
+   "count": "2"
+  }
+ ]
+}

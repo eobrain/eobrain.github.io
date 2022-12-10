@@ -1,0 +1,36 @@
+{
+ "date": 1669652323941,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 325.76114748909947,
+   "instance": "server.mastodon.ocjtech.us",
+   "count": "9"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 190.48370076939995,
+   "instance": "bolha.us",
+   "count": "9"
+  },
+  {
+   "name": "sunday",
+   "increase": 163.59981402510448,
+   "instance": "curious.simio.us",
+   "count": "6"
+  },
+  {
+   "name": "caturday",
+   "increase": 61.565664144111324,
+   "instance": "ser.endipito.us",
+   "count": "7"
+  },
+  {
+   "name": "advent",
+   "increase": 24.73766985295402,
+   "instance": "pubnex.us",
+   "count": "8"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "乌鲁木齐中路",
+   "increase": 12.346617324878167,
+   "instance": "unstable.icu",
+   "count": "27"
+  },
+  {
+   "name": "上海",
+   "increase": 5.644793437556773,
+   "instance": "unstable.icu",
+   "count": "6"
+  },
+  {
+   "name": "china",
+   "increase": 4.642368392304822,
+   "instance": "unstable.icu",
+   "count": "11"
+  },
+  {
+   "name": "白纸革命",
+   "increase": 3.6945112882601583,
+   "instance": "unstable.icu",
+   "count": "43"
+  },
+  {
+   "name": "a4revolution",
+   "increase": 1.6420050170045144,
+   "instance": "unstable.icu",
+   "count": "21"
+  }
+ ]
+}

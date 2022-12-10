@@ -1,0 +1,36 @@
+{
+ "date": 1669652323948,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 32.28199514113905,
+   "instance": "gochisou.photo",
+   "count": "7"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 29.698382663833073,
+   "instance": "gochisou.photo",
+   "count": "63"
+  },
+  {
+   "name": "ペペロンチーノチャレンジ",
+   "increase": 15.746407978741367,
+   "instance": "gochisou.photo",
+   "count": "0"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 11.830484820567303,
+   "instance": "onemorestop.photo",
+   "count": "5"
+  },
+  {
+   "name": "空気ガチャ",
+   "increase": 10.262531356278217,
+   "instance": "gochisou.photo",
+   "count": "0"
+  }
+ ]
+}

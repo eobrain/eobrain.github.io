@@ -1,0 +1,36 @@
+{
+ "date": 1669652323943,
+ "total": 5,
+ "all": [
+  {
+   "name": "advent",
+   "increase": 116.61474630668822,
+   "instance": "toot.kif.rocks",
+   "count": "5"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 89.79448003761684,
+   "instance": "toot.kif.rocks",
+   "count": "6"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 60.89306869675459,
+   "instance": "mastodon.blackblock.rocks",
+   "count": "5"
+  },
+  {
+   "name": "introduction",
+   "increase": 38.72055975324889,
+   "instance": "hofra.rocks",
+   "count": "53"
+  },
+  {
+   "name": "sunday",
+   "increase": 36.943829695296245,
+   "instance": "mastodon.blackblock.rocks",
+   "count": "7"
+  }
+ ]
+}

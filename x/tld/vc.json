@@ -1,0 +1,36 @@
+{
+ "date": 1669652323951,
+ "total": 5,
+ "all": [
+  {
+   "name": "nsfw",
+   "increase": 0.46824378391406385,
+   "instance": "6t.vc",
+   "count": "5"
+  },
+  {
+   "name": "lgbtq",
+   "increase": -0.30514000714182754,
+   "instance": "6t.vc",
+   "count": "7"
+  },
+  {
+   "name": "language",
+   "increase": -0.4099820798707887,
+   "instance": "6t.vc",
+   "count": "5"
+  },
+  {
+   "name": "privacy",
+   "increase": -0.4872746237898462,
+   "instance": "6t.vc",
+   "count": "8"
+  },
+  {
+   "name": "cat",
+   "increase": -0.6472412754118069,
+   "instance": "6t.vc",
+   "count": "7"
+  }
+ ]
+}

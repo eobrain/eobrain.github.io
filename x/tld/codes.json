@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 8.447803454943934,
+   "instance": "signs.codes",
+   "count": "3"
+  },
+  {
+   "name": "accessibility",
+   "increase": 5.710699553451924,
+   "instance": "tane.codes",
+   "count": "14"
+  },
+  {
+   "name": "dragonmeet",
+   "increase": 4.771096939341756,
+   "instance": "signs.codes",
+   "count": "0"
+  },
+  {
+   "name": "twittermigration",
+   "increase": 4.289370729967668,
+   "instance": "social.leoji.codes",
+   "count": "48"
+  },
+  {
+   "name": "ttrpg",
+   "increase": 3.310591985996165,
+   "instance": "signs.codes",
+   "count": "15"
+  }
+ ]
+}

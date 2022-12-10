@@ -1,0 +1,36 @@
+{
+ "date": 1669652323941,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 463.61406729052135,
+   "instance": "mastodon.online",
+   "count": "94"
+  },
+  {
+   "name": "sunday",
+   "increase": 249.46425898000945,
+   "instance": "mastodonnederland.online",
+   "count": "8"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 246.27846251990252,
+   "instance": "polxa.online",
+   "count": "7"
+  },
+  {
+   "name": "belmar",
+   "increase": 103.38486530906421,
+   "instance": "mastodon.online",
+   "count": "8"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 73.132111839358,
+   "instance": "machikadon.online",
+   "count": "73"
+  }
+ ]
+}

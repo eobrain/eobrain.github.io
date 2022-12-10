@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 33.12610045424212,
+   "instance": "mastodon.energy",
+   "count": "65"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 18.911120854813873,
+   "instance": "mastodon.energy",
+   "count": "10"
+  },
+  {
+   "name": "shanghai",
+   "increase": 10.252111983533343,
+   "instance": "mastodon.energy",
+   "count": "8"
+  },
+  {
+   "name": "sunday",
+   "increase": 5.296750585952498,
+   "instance": "mastodon.energy",
+   "count": "1"
+  },
+  {
+   "name": "accessibility",
+   "increase": 4.666349806873127,
+   "instance": "adhd.energy",
+   "count": "2"
+  }
+ ]
+}

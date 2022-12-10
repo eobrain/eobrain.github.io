@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "monday",
+   "increase": 1.120854324210116,
+   "instance": "clar.ke",
+   "count": "41"
+  },
+  {
+   "name": "mondaymotivation",
+   "increase": 0.03586422436947717,
+   "instance": "clar.ke",
+   "count": "17"
+  },
+  {
+   "name": "7filmstoknowme",
+   "increase": 0,
+   "instance": "clar.ke",
+   "count": "34"
+  },
+  {
+   "name": "houston",
+   "increase": -0.2640911005243166,
+   "instance": "clar.ke",
+   "count": "12"
+  },
+  {
+   "name": "creative",
+   "increase": -0.3323986651760933,
+   "instance": "clar.ke",
+   "count": "9"
+  }
+ ]
+}

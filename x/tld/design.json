@@ -1,0 +1,36 @@
+{
+ "date": 1669652323950,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 9.84941179438973,
+   "instance": "masto.design",
+   "count": "20"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 8.139905378716474,
+   "instance": "masto.design",
+   "count": "3"
+  },
+  {
+   "name": "sunday",
+   "increase": 3.916930798600689,
+   "instance": "masto.design",
+   "count": "7"
+  },
+  {
+   "name": "cinema",
+   "increase": 0.17356953861550384,
+   "instance": "masto.design",
+   "count": "18"
+  },
+  {
+   "name": "films",
+   "increase": 0.04612261097345627,
+   "instance": "masto.design",
+   "count": "14"
+  }
+ ]
+}

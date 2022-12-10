@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 27.52899853498359,
+   "instance": "ableism.rip",
+   "count": "3"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 23.07046325495911,
+   "instance": "mastodon.ftp.rip",
+   "count": "6"
+  },
+  {
+   "name": "sunday",
+   "increase": 14.131567890553828,
+   "instance": "mastodon.ftp.rip",
+   "count": "5"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 12.15725793759051,
+   "instance": "mastodon.ftp.rip",
+   "count": "1"
+  },
+  {
+   "name": "accessibility",
+   "increase": 10.193827843754407,
+   "instance": "ableism.rip",
+   "count": "6"
+  }
+ ]
+}

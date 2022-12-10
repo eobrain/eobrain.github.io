@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 163.69751432542193,
+   "instance": "social.linux.pizza",
+   "count": "45"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 86.36173312675412,
+   "instance": "retro.pizza",
+   "count": "3"
+  },
+  {
+   "name": "sunday",
+   "increase": 56.23542529727271,
+   "instance": "retro.pizza",
+   "count": "11"
+  },
+  {
+   "name": "wildflowerhour",
+   "increase": 11.86477065397056,
+   "instance": "retro.pizza",
+   "count": "1"
+  },
+  {
+   "name": "7books",
+   "increase": 7.196001345773765,
+   "instance": "toot.pizza",
+   "count": "0"
+  }
+ ]
+}

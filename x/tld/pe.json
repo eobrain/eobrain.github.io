@@ -1,0 +1,18 @@
+{
+ "date": 1669652323952,
+ "total": 2,
+ "all": [
+  {
+   "name": "introduction",
+   "increase": 2.333156978286368,
+   "instance": "canica.pe",
+   "count": "24"
+  },
+  {
+   "name": "fediverse",
+   "increase": 0.15823125053267795,
+   "instance": "canica.pe",
+   "count": "14"
+  }
+ ]
+}

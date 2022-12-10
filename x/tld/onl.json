@@ -1,0 +1,36 @@
+{
+ "date": 1669652323949,
+ "total": 5,
+ "all": [
+  {
+   "name": "shindanmaker",
+   "increase": 19.68459247429137,
+   "instance": "m.onl",
+   "count": "11"
+  },
+  {
+   "name": "gardening",
+   "increase": 2.631673829548656,
+   "instance": "loci.onl",
+   "count": "4"
+  },
+  {
+   "name": "accessibility",
+   "increase": 2.5714739783892617,
+   "instance": "loci.onl",
+   "count": "9"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 2.4064962501224985,
+   "instance": "loci.onl",
+   "count": "1"
+  },
+  {
+   "name": "knitting",
+   "increase": 2.345460796229257,
+   "instance": "loci.onl",
+   "count": "1"
+  }
+ ]
+}

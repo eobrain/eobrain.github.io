@@ -1,0 +1,36 @@
+{
+ "date": 1669652323946,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 54.51198261390483,
+   "instance": "m.smto.pw",
+   "count": "9"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 22.95302003486753,
+   "instance": "fediverse.pw",
+   "count": "6"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 20.452199964734437,
+   "instance": "mstdn.dgm.pw",
+   "count": "17"
+  },
+  {
+   "name": "sunday",
+   "increase": 11.109415606292103,
+   "instance": "m.smto.pw",
+   "count": "7"
+  },
+  {
+   "name": "accessibility",
+   "increase": 4.436662518659306,
+   "instance": "lostmy.pw",
+   "count": "2"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "date": 1670177025133,
+ "total": 5,
+ "all": [
+  {
+   "name": "caturday",
+   "increase": 31.447155043934657,
+   "instance": "mast.mulliken.net",
+   "count": "14"
+  },
+  {
+   "name": "satyrday",
+   "increase": 9.031027593524826,
+   "instance": "mast.mulliken.net",
+   "count": "7"
+  },
+  {
+   "name": "sillycuratorprompts",
+   "increase": 7.216045370004457,
+   "instance": "mast.mulliken.net",
+   "count": "1"
+  },
+  {
+   "name": "photography",
+   "increase": 3.131715773902883,
+   "instance": "mastodon.starshipchangeling.net",
+   "count": "9"
+  },
+  {
+   "name": "film",
+   "increase": 0.8025065237711559,
+   "instance": "mast.mulliken.net",
+   "count": "10"
+  }
+ ]
+}

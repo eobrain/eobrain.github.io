@@ -1,0 +1,36 @@
+{
+ "date": 1669652323942,
+ "total": 5,
+ "all": [
+  {
+   "name": "silentsunday",
+   "increase": 92.63326801886232,
+   "instance": "mastodon.obsidian-group.co",
+   "count": "6"
+  },
+  {
+   "name": "standingstonesunday",
+   "increase": 67.73142376413088,
+   "instance": "podvibes.co",
+   "count": "6"
+  },
+  {
+   "name": "sunday",
+   "increase": 37.92293937364724,
+   "instance": "pettingzoo.co",
+   "count": "30"
+  },
+  {
+   "name": "shindanmaker",
+   "increase": 34.79924934930617,
+   "instance": "toot.ikata.co",
+   "count": "54"
+  },
+  {
+   "name": "gay",
+   "increase": 24.10479170242391,
+   "instance": "sself.co",
+   "count": "11"
+  }
+ ]
+}

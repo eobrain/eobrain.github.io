@@ -1,0 +1,36 @@
+{
+ "date": 1670177025134,
+ "total": 5,
+ "all": [
+  {
+   "name": "screenshotsaturday",
+   "increase": 36.81673147225219,
+   "instance": "loðfíll.is",
+   "count": "7"
+  },
+  {
+   "name": "caturday",
+   "increase": 27.836735268202723,
+   "instance": "loðfíll.is",
+   "count": "50"
+  },
+  {
+   "name": "mutualaid",
+   "increase": 7.131765782151682,
+   "instance": "loðfíll.is",
+   "count": "1"
+  },
+  {
+   "name": "birdsite",
+   "increase": 4.123046829817014,
+   "instance": "loðfíll.is",
+   "count": "4"
+  },
+  {
+   "name": "iran",
+   "increase": 0.23054805535343714,
+   "instance": "loðfíll.is",
+   "count": "18"
+  }
+ ]
+}

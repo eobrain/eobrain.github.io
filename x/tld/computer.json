@@ -1,0 +1,36 @@
+{
+ "date": 1669652323947,
+ "total": 5,
+ "all": [
+  {
+   "name": "china",
+   "increase": 34.927329334636234,
+   "instance": "mastodon.neat.computer",
+   "count": "9"
+  },
+  {
+   "name": "silentsunday",
+   "increase": 11.826755363317385,
+   "instance": "wholesome.computer",
+   "count": "3"
+  },
+  {
+   "name": "introduction",
+   "increase": 9.103144573211722,
+   "instance": "mister.computer",
+   "count": "64"
+  },
+  {
+   "name": "mastodon",
+   "increase": 5.3365163052646745,
+   "instance": "mastodon.wallera.computer",
+   "count": "29"
+  },
+  {
+   "name": "nfl",
+   "increase": 3.6559768232266467,
+   "instance": "mastodon.neat.computer",
+   "count": "5"
+  }
+ ]
+}
