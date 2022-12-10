@@ -1,4 +1,4 @@
-import tldInfos from './tld.js'
+import tldInfos from '../tmp/tld.js'
 import { a, section, p } from 'ez-html-elements'
 import { element } from 'ez-html-elements/base.js'
 import fs from 'fs'
@@ -18,7 +18,9 @@ async function readJson (jsonFile) {
   }
 }
 
-async function writeHtml (jsonFile, header) {
+async function writeHtml (basename, header) {
+  const jsonFile = `tmp/${basename}.json`
+  const htmlFile = `x/${basename}.html`
   const json = await readJson(jsonFile)
   const all = json.all
   // const max = all[0].increase
@@ -36,24 +38,23 @@ async function writeHtml (jsonFile, header) {
     ))
   }
   const html = p(tNewthought(header), ...hashtagLinks)
-  const htmlFile = jsonFile.replace(/\.json$/, '.html')
   fs.writeFile(htmlFile, html, (err) => err && console.error(err))
 }
 
 let contentHtml = section({
-  'hx-get': 'tld/TOTAL.html',
+  'hx-get': 'x/tld/TOTAL.html',
   'hx-trigger': 'intersect once'
 })
 
-writeHtml('tld/TOTAL.json', 'All Instances')
+writeHtml('TOTAL', 'All Instances')
 for (const { tld } of tldInfos) {
-  writeHtml(`tld/${tld}.json`, `*.${tld} Instances`)
+  writeHtml(tld, `*.${tld} Instances`)
   contentHtml += section({
-    'hx-get': `tld/${tld}.html`,
+    'hx-get': `x/tld/${tld}.html`,
     'hx-trigger': 'intersect once'
   })
 }
-writeHtml('tld/ALL.json', 'Active Hashtags')
+writeHtml('ALL', 'Active Hashtags')
 fs.writeFile('content.html', contentHtml, (err) => err && console.error(err))
 
 const hashtagHtml = (hashtagList) =>

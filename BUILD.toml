@@ -1,21 +1,21 @@
-["tld/TOTAL.html"]
-deps=["tld/TOTAL.json", "make.js"]
-exec="node make.js"
+["x/tld/TOTAL.html"]
+deps=["tmp/TOTAL.json", "build/make.js"]
+exec="node build/make"
 
-["tld/TOTAL.json"]
-deps=["hashtag.js", "instances.js"]
-exec="node hashtag.js"
+["tmp/TOTAL.json"]
+deps=["build/hashtag.js", "tmp/instances.js"]
+exec="node build/hashtag"
 
-["instances.js"]
-deps=["instances.html","html2js.js"]
-exec="node html2js instances.html > $@"
+["tmp/instances.js"]
+deps=["tmp/instances.html","build/html2js.js"]
+exec="node build/html2js tmp/instances.html > $@"
 
-["instances.html"]
+["tmp/instances.html"]
 exec="wget https://mastodon.fediverse.observer/app/views/tabledata.php?software=mastodon -O $@"
 
 [publish]
-deps=["tld/TOTAL.html"]
-exec="git add content.html distances.html tld/*.html && git commit -m \"Automatic update by $USER on `hostname`\" && git push"
+deps=["x/tld/TOTAL.html"]
+exec="git add x/content.html x/distances.html x/tld/*.html && git commit -m \"Automatic update by $USER on `hostname`\" && git push"
 
 [clean]
-exec="rm -f distances.html distances.json instances.html instances.js tld.js tld/*.json tld/*.html"
+exec="rm -f x/distances.html tmp/*.json tmp/instances.html tmp/*.js x/tld/*.html"

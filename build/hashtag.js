@@ -3,7 +3,7 @@ import smoothish from 'smoothish'
 import fs from 'fs'
 // import { pp } from 'passprint'
 
-import iii from './instances.js'
+import iii from '../tmp/instances.js'
 
 process.setMaxListeners(0)
 
@@ -11,7 +11,7 @@ const TOP_COUNT = 5
 
 const toJSON = x => JSON.stringify(x, null, ' ')
 
-const instances = iii // .slice(2000, 2100)
+const instances = iii //.slice(2000, 2010)
 instances.sort()
 
 const queue = new PQueue({ concurrency: 20 })
@@ -117,7 +117,7 @@ for (const instance of instances) {
 await Promise.all(promises)
 
 function printHashtags (tld, hashtagList) {
-  fs.writeFile(`tld/${tld}.json`, toJSON(
+  fs.writeFile(`tmp/${tld}.json`, toJSON(
     {
       date: Date.now(),
       total: hashtagList.length,
@@ -149,7 +149,7 @@ listOfMaps.sort((a, b) => hashtagCount(b) - hashtagCount(a))
 
 const rows = listOfMaps.map(dict => `{tld:"${dict.tld}",hashtagCount:${hashtagCount(dict)}}`).join(',\n')
 fs.writeFile(
-  'tld.js', `
+  'tmp/tld.js', `
 export default [
  ${rows}
 ]
