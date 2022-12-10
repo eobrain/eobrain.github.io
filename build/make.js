@@ -20,7 +20,7 @@ async function readJson (jsonFile) {
 
 async function writeHtml (basename, header) {
   const jsonFile = `tmp/${basename}.json`
-  const htmlFile = `x/${basename}.html`
+  const htmlFile = `x/tld/${basename}.html`
   const json = await readJson(jsonFile)
   const all = json.all
   // const max = all[0].increase
