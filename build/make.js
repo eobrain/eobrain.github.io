@@ -55,13 +55,13 @@ for (const { tld } of tldInfos) {
   })
 }
 writeHtml('ALL', 'Active Hashtags')
-fs.writeFile('content.html', contentHtml, (err) => err && console.error(err))
+fs.writeFile('x/content.html', contentHtml, (err) => err && console.error(err))
 
 const hashtagHtml = (hashtagList) =>
   hashtagList.map((name) => '#' + name).join(' ')
 
 async function writeInstances () {
-  const distances = await readJson('distances.json')
+  const distances = await readJson('tmp/distances.json')
   const instances = distances.map((x) =>
     p(
       a({ href: `https://${x.instance}` }, x.instance),
@@ -70,7 +70,7 @@ async function writeInstances () {
   )
   const distancesHtml = instances.join('')
   fs.writeFile(
-    'distances.html',
+    'x/distances.html',
     distancesHtml,
     (err) => err && console.error(err)
   )
