@@ -1,11 +1,12 @@
-/* global popularElement pinaforeElement customElement instanceElement */
+/* global popularElement cuckooElement pinaforeElement customElement instanceElement */
 
 function changeLinks () {
   const instance = document.location.hash.slice(1)
   const matches = document.querySelectorAll('a[data-popular]')
   matches.forEach(a => {
     const hostName = instance === 'POPULAR' ? a.dataset.popular : instance
-    a.href = a.href.replace(/https:\/\/.*\/tags\//, `https://${hostName}/tags/`)
+    const path = hostName === 'cuckoo.social' ? '#/timelines/tag' : 'tags'
+    a.href = a.href.replace(/https:\/\/.*\/tags\//, `https://${hostName}/${path}/`)
   })
 }
 
@@ -23,6 +24,12 @@ const pinaforeCallback = () => {
   changeLinks()
 }
 
+const cuckooCallback = () => {
+  if (cuckooElement.checked) {
+    document.location.hash = 'cuckoo.social'
+  }
+  changeLinks()
+}
 const customCallback = () => {
   const instance = instanceElement.value.trim()
   if (customElement.checked && instance !== '') {
@@ -41,6 +48,7 @@ const disabledCallback = () => {
 
 popularElement.addEventListener('change', popularCallback)
 pinaforeElement.addEventListener('change', pinaforeCallback)
+cuckooElement.addEventListener('change', cuckooCallback)
 customElement.addEventListener('change', customCallback)
 instanceElement.addEventListener('change', customCallback)
 instanceElement.addEventListener('change', disabledCallback)

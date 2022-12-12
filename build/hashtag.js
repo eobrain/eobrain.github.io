@@ -219,7 +219,7 @@ function printInstanceDistance () {
     hashtagList: notableHashtags(instance)
   })).sort((a, b) => b.activity - a.activity)
 
-  fs.writeFile('distances.json', toJSON(distances), err => err && console.error(err))
+  fs.writeFile('tmp/distances.json', toJSON(distances), err => err && console.error(err))
 }
 
 printInstanceDistance()
