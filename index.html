@@ -5,43 +5,41 @@
     <meta name="description" content="All Mastodon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tufte.min.css" />
+    <link rel="stylesheet" href="vendor/simple.min.css" />
     <script src="vendor/htmx.org@1.8.2.js"></script>
-    <script src="tuftecomponent/index.js" type="module"></script>
   </head>
 
   <body>
-    <article>
+    <header>
       <h1>All Mastodon</h1>
-      <section>
-        <p hx-get="nav.html" hx-trigger="intersect once"></p>
-      </section>
-      <section>
+      <nav hx-get="nav.html" hx-trigger="intersect once"></nav>
+    </header>
+    <main>
+      <section hx-get="viewon.html" hx-trigger="load"></section>
+      <article>
         <p>
-          <t-newthought>You cannot search</t-newthought> for everything on
-          Mastodon. You can search for what your server knows about, based on
-          what you and other people on your server have followed and boosted.
-          <t-sidenote
-            >Your administrator might also block some servers that are not
-            compatible with the ethos of your server.
-          </t-sidenote>
+          You cannot search for everything on Mastodon. You can search for what
+          your server knows about, based on what you and other people on your
+          server have followed and boosted.<sup>1</sup>
         </p>
+        <aside>
+          <sup>1</sup>Your admin might also block servers that are not
+          compatible with the ethos of your server.
+        </aside>
 
         <p>
           That is deliberate for two reasons. Firstly Mastodon wants to avoid
-          having any central place for searching.
-          <t-sidenote
-            >That would provide a choke point for one organization to exert
-            monopoly control, and provide a tempting convenient target for
-            governments armed with subpoena or coercive powers.</t-sidenote
-          >
+          having any central place for searching, which would provide a choke
+          point for one organization to exert monopoly control.<sup>2</sup>
+
           Secondly Mastodon does not want to make it <em>too</em> easy to find
-          everything on Mastodon.
-          <t-sidenote
-            >That would make it too easy for trolls and bullies to find victims
-            to harass.</t-sidenote
-          >
+          everything on Mastodon, as that would make it too easy for trolls and
+          bullies to find victims to harass.
         </p>
+        <aside>
+          <sup>2</sup>And provide a tempting convenient target for governments
+          armed with subpoena or coercive powers.
+        </aside>
         <p>
           Hashtags provide a nice compromise. If you add one to your post you
           are implicitly advertising that you want your post to be found via
@@ -51,8 +49,8 @@
           what you want by searching via your server. If you want to search more
           widely you can use this site.
         </p>
-      </section>
-      <section hx-get="footer.html" hx-trigger="load"></section>
-    </article>
+      </article>
+    </main>
+    <footer hx-get="footer.html" hx-trigger="load"></footer>
   </body>
 </html>

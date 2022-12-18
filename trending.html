@@ -5,32 +5,27 @@
     <meta name="description" content="Mastodon Trending Hashtags" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tufte.min.css" />
+    <link rel="stylesheet" href="vendor/simple.min.css" />
     <script src="vendor/htmx.org@1.8.2.js"></script>
-    <script src="tuftecomponent/index.js" type="module"></script>
   </head>
 
   <body>
-    <article>
+    <header>
       <h1>Mastodon Trending Hashtags</h1>
-      <section>
-        <p hx-get="nav.html" hx-trigger="intersect once"></p>
-        <p hx-get="viewon.html" hx-trigger="load"></p>
-      </section>
-      <section>
-        <p>
-          <t-newthought>This page</t-newthought> lists hashtags that have
-          increased use in the last few days. The first section shows the trends
-          globally, and the later sections show trends in particular groupings
-          of servers.
-        </p>
-      </section>
-      <div
+      <nav hx-get="nav.html" hx-trigger="intersect once"></nav>
+    </header>
+    <main>
+      <section hx-get="viewon.html" hx-trigger="load"></section>
+      <aside>
+        Lists hashtags that have increased use in the last few days. The first
+        section shows the trends globally, and the later sections show trends in
+        particular groupings of servers.
+      </aside>
+      <article
         hx-get="x/content.html"
-        hx-swap="outerHTML"
         hx-trigger="intersect once"
-      ></div>
-      <section hx-get="footer.html" hx-trigger="load"></section>
-    </article>
+      ></article>
+    </main>
+    <footer hx-get="footer.html" hx-trigger="load"></footer>
   </body>
 </html>

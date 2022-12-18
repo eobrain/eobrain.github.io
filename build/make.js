@@ -54,7 +54,7 @@ for (const { tld } of tldInfos) {
     'hx-trigger': 'intersect once'
   })
 }
-writeHtml('ALL', 'Active Hashtags')
+writeHtml('ALL', '')
 fs.writeFile('x/content.html', contentHtml, (err) => err && console.error(err))
 
 const hashtagHtml = (hashtagList) =>

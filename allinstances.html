@@ -5,26 +5,23 @@
     <meta name="description" content="Mastodon Instances" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tufte.min.css" />
+    <link rel="stylesheet" href="vendor/simple.min.css" />
     <script src="vendor/htmx.org@1.8.2.js"></script>
-    <script src="tuftecomponent/index.js" type="module"></script>
   </head>
 
   <body>
-    <article>
+    <header>
       <h1>Mastodon Instances</h1>
-      <section>
-        <p hx-get="nav.html" hx-trigger="intersect once"></p>
-      </section>
-      <section>
-        <p>
-          <t-newthought>This page</t-newthought> lists all known Mastodon
-          instances together with some hashtags that are more common on those
-          instances.
-        </p>
-      </section>
-      <section hx-get="x/distances.html" hx-trigger="load"></section>
-      <section hx-get="footer.html" hx-trigger="load"></section>
-    </article>
+      <nav hx-get="nav.html" hx-trigger="intersect once"></nav>
+    </header>
+    <main>
+      <section hx-get="viewon.html" hx-trigger="load"></section>
+      <aside>
+        Lists all known Mastodon instances together with some hashtags that are
+        more common on those instances.
+      </aside>
+      <article hx-get="x/distances.html" hx-trigger="load"></article>
+    </main>
+    <footer hx-get="footer.html" hx-trigger="load"></footer>
   </body>
 </html>

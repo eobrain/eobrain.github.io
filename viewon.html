@@ -1,36 +1,59 @@
 <script src="index.js" type="module"></script>
-<t-marginnote>
-  The hashtag links on the left are different depending on which server you use
-  to view them on. Change which servers the links use here:
-  <br />
-  <br />
-  <input
-    id="popularElement"
-    checked="checked"
-    name="linkto"
-    type="radio"
-    value="popular"
-  />
-  Click here to point to the server where that hashtag is most popular. You will
-  not need to have a Mastodon account already to view these links.
-  <br />
-  <br />
-  <input id="customElement" name="linkto" type="radio" value="custom" />
-  Click here and enter an instance name
-  <input
-    id="instanceElement"
-    type="text"
-    name="instance"
-    placeholder="mastodon.social"
-  />
-  to specify a particular Mastodon server, perhaps one that you have an account
-  on.
-  <br />
-  <br />
-  <input id="pinaforeElement" name="linkto" type="radio" value="pinafore" />
-  Click here if you have a Mastodon account and you use the Pinafore web app.
-  <br />
-  <br />
-  <input id="cuckooElement" name="linkto" type="radio" value="cuckooElement" />
-  Click here if you have a Mastodon account and you use the cuckoo web app.
-</t-marginnote>
+<details>
+  <summary>Change links:</summary>
+  <p>
+    Change which servers the links use. The hashtag links on the left are
+    different depending on which server you use to view them on.
+  </p>
+
+  <details>
+    <summary>
+      <input
+        id="popularElement"
+        checked="checked"
+        name="linkto"
+        type="radio"
+        value="popular"
+      />
+      Popular
+    </summary>
+    Click here to point to the server where that hashtag is most popular. You
+    will not need to have a Mastodon account already to view these links.
+  </details>
+
+  <details>
+    <summary>
+      <input id="pinaforeElement" name="linkto" type="radio" value="pinafore" />
+      Pinafore
+    </summary>
+    Click here if you have a Mastodon account and you use the Pinafore web app.
+  </details>
+
+  <details>
+    <summary>
+      <input
+        id="cuckooElement"
+        name="linkto"
+        type="radio"
+        value="cuckooElement"
+      />
+      Cuckoo
+    </summary>
+    Click here if you have a Mastodon account and you use the cuckoo web app.
+  </details>
+
+  <details>
+    <summary>
+      <input id="customElement" name="linkto" type="radio" value="custom" />
+      Yours
+      <input
+        id="instanceElement"
+        type="text"
+        name="instance"
+        placeholder="mastodon.social"
+      />
+    </summary>
+    Click here and enter an instance name to specify a particular Mastodon
+    server, perhaps one that you have an account on.
+  </details>
+</details>
