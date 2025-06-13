@@ -1,56 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>All Mastodon</title>
-    <meta name="description" content="All Mastodon" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vendor/simple.min.css" />
-    <script src="vendor/htmx.org@1.8.2.js"></script>
+    <meta charset="utf-8" />
+    <title>Eamonn's Side Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/classless-tufte-css@1.4.0/tufte.min.css"
+    />
+    <link rel="stylesheet" href="extra.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
-    <header>
-      <h1>All Mastodon</h1>
-      <nav hx-get="nav.html" hx-trigger="intersect once"></nav>
-    </header>
-    <main>
-      <section hx-get="viewon.html" hx-trigger="load"></section>
-      <article>
+    <article>
+      <h1>Eamonn's Side Projects</h1>
+      <p>
+        Some programming projects I've built over the years for my own
+        amusement, and maybe yours.
+      </p>
+
+      <section>
+        <blockquote>
+          <p>
+            To become a better developer and team member, it helps to engage in
+            regular, intentional, and time-boxed yak shaving.
+          </p>
+          <footer>Jenny Bryan</footer>
+        </blockquote>
+      </section>
+
+      <section>
         <p>
-          You cannot search for everything on Mastodon. You can search for what
-          your server knows about, based on what you and other people on your
-          server have followed and boosted.<sup>1</sup>
+          <a href="https://github.com/eobrain/videogestalt">Video Gestalt</a> is
+          a new implementaton of an invention that I was awarded a
+          <a href="https://patents.google.com/patent/US8301669B2">patent</a> for
+          when I worked at HP Labs many years ago. I was frustrated that HP
+          never did anything with it, so after the patent expired I created this
+          new implementation. It is basically a way of summarizing a long video
+          as a short video with many thumbnails of the originalvideo playing in
+          parallel.
         </p>
         <aside>
-          <sup>1</sup>Your admin might also block servers that are not
-          compatible with the ethos of your server.
+          <figure>
+            <a
+              href="https://ia904607.us.archive.org/11/items/vespa-scooter-commercial/Vespa%20Scooter%20Commercial.mp4"
+              ><img
+                src="https://raw.githubusercontent.com/eobrain/videogestalt/main/resources/vespa-commercial-gestalt.gif"
+            /></a>
+          </figure>
+          <figcaption>
+            You can view the
+            <a
+              href="https://ia904607.us.archive.org/11/items/vespa-scooter-commercial/Vespa%20Scooter%20Commercial.mp4"
+              >original video</a
+            >
+            from which this example gestalt video was generated.
+          </figcaption>
         </aside>
+      </section>
 
+      <section>
         <p>
-          That is deliberate for two reasons. Firstly Mastodon wants to avoid
-          having any central place for searching, which would provide a choke
-          point for one organization to exert monopoly control.<sup>2</sup>
-
-          Secondly Mastodon does not want to make it <em>too</em> easy to find
-          everything on Mastodon, as that would make it too easy for trolls and
-          bullies to find victims to harass.
+          <a href="https://github.com/eobrain/bajel">Bajel</a> reflects my
+          nostalgia for Makefiles when working in a NPM JavaScript development
+          stack. I really liked the model in Makefiles where build targets are
+          files and the timestamps of the files are used to determine what needs
+          to be built. It's a pure-JavaScript implementation and is controlled
+          by buildfiles in JSON, or in various formats that convert to JSON,
+          like YAML and TOML. For power users, you can write the build files in
+          JavaScript for ultimate flexibility.
         </p>
         <aside>
-          <sup>2</sup>And provide a tempting convenient target for governments
-          armed with subpoena or coercive powers.
+          <figure>
+            <a href="https://github.com/eobrain/bajel"
+              ><img src="bajel-screenshot.png"
+            /></a>
+          </figure>
+          <figcaption>Example build file.</figcaption>
         </aside>
+      </section>
+
+      <section>
         <p>
-          Hashtags provide a nice compromise. If you add one to your post you
-          are implicitly advertising that you want your post to be found via
-          that hashtag. So Mastodon makes it possible to search by hashtag, but
-          only for those that your server knows about. If your server is getting
-          a flow of data from many other servers then you may be able to find
-          what you want by searching via your server. If you want to search more
-          widely you can use this site.
+          <a href="https://github.com/eobrain/almondbread">Almond Bread</a>
+          reflects my fascination dor the Mandelbrot set. I built an interactive
+          explorer to find interesting parts of the set zooming way down deep. I
+          also added ways to capture images and zooming videos.
         </p>
-      </article>
-    </main>
-    <footer hx-get="footer.html" hx-trigger="load"></footer>
+        <aside>
+          <figure>
+            <a href="https://mandelbrot.dev/"
+              ><img
+                src="https://d33wubrfki0l68.cloudfront.net/b989de9bfe0e07242f08431f29666d9e5f91d7aa/dd9ae/img/770x433_-0.24482766477704102_0.8132688560198666_8.881784197001252e-16_10000.png"
+            /></a>
+          </figure>
+          <figure>
+            <video controls>
+              <source
+                src="256x144_-0.24482766477704102_0.8132688560198666_8.881784197001252e-16_10000.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </figure>
+          <figcaption>
+            For many more examples, see
+            <a href="https://mandelbrot.dev/">mandelbrot.dev</a>.
+          </figcaption>
+        </aside>
+      </section>
+
+      <section>
+        <p>
+          <a href="https://github.com/eobrain/maxichrome">Maxichrome</a> is a
+          JavaScript library that generates sets of colors that are maximally
+          different from each according to human perception of colors. This can
+          be useful for picking colors for graphs or coloring maps.
+        </p>
+        <aside>
+          <figure>
+            <a href="https://github.com/eobrain/maxichrome"
+              ><img src="maxichrome-screenshot.png"
+            /></a>
+          </figure>
+          <figcaption>
+            Some example palettes of 12 colors generated by
+            <a href="https://github.com/eobrain/maxichrome">Maxichrome</a>
+          </figcaption>
+        </aside>
+      </section>
+
+      <section>
+        <p>
+          <a href="https://github.com/eobrain/classless-tufte-css"
+            >Classless Tufte CSS</a
+          >
+          is an experiment to bring the elegance of Edward Tufte's style of
+          graphic design to the web, with the simplicity of a pure semantic
+          classless HTML/CSS style. This page is an example of its use, and I
+          encourage you to "view source" this page to see the semantic
+          simplicity of the HTML code. The linked repo gives more details,
+          including credit to the original developers of the repo from which
+          this was adapted. Trying it out with your own pages is easy,
+          especially if you already are using a semantic HTML. You just need to
+          add a single line in the header to include the CSS.
+        </p>
+        <aside>
+          <figure>
+            <a href="https://eobrain.github.io/classless-tufte-css/"
+              ><img src="tufte-screenshot.png"
+            /></a>
+          </figure>
+          <figcaption>
+            <a href="https://eobrain.github.io/classless-tufte-css/"
+              >classless-tufte-css</a
+            >
+          </figcaption>
+        </aside>
+      </section>
+
+      <section>
+        <p>
+          <a href="https://github.com/eobrain/funetik">Funetik</a> iz u web
+          aplukayshun that kunverts Inglish intoo funetik speling. Yoo kan triy
+          it out yerself at <a href="https://funetik.site/">funetik.site</a> .
+          Awlsoe see thu
+          <a href="https://github.com/eobrain/phonate">phonate</a>
+          JaavUskript liybreree, which iz eezee too yoos in thu brouzer er u
+          NodeJS server.
+        </p>
+        <aside>
+          <figure>
+            <a href="https://funetik.site/"
+              ><img src="funetik-screenshot.png"
+            /></a>
+          </figure>
+          <figcaption>
+            <a href="https://funetik.site/">funetik.site</a>
+          </figcaption>
+        </aside>
+      </section>
+
+      <section>
+        <p>
+          <a href="https://github.com/eobrain/funcgo">Funcgo</a> was a reaction
+          to my first exposure to the Go programming language, having previously
+          drunk the functional programming Kool-Aid. I really liked the clean
+          syntax of Go, but I really wanted it to allow for functional
+          programming. So like any slef-respecting computer scientist I designed
+          my own language with a syntax similar to go, but with the semantics of
+          Clojure, a dialect of Lisp that runs on the JVM or JavaScript.
+        </p>
+        <aside>
+          <figure>
+            <a href="http://www.funcgo.org/"
+              ><img src="funcgo-screenshot.png"
+            /></a>
+          </figure>
+          <figcaption>
+            Note, the <a href="http://www.funcgo.org/">funcgo.org</a> is so old
+            that it doesn't have a HTTPS support. Until I fix that you will get
+            a security warning when you visit the site.
+          </figcaption>
+        </aside>
+      </section>
+
+      <section>
+        <p>
+          <a href="https://github.com/eobrain/simplestblog">Simplest Blog</a> is
+          an example of the rule that every software developer who attempts to
+          blog invariably ends up creating their own blogging platform. This one
+          is probably the fourth one I built over the years, but in this case I
+          wanted to really push the limits of simplicity as far as possible.
+        </p>
+        <aside>
+          <figure>
+            <a href="https://eobrain.github.io/mysimplestblog/"
+              ><img src="blog-screenshot.png" />
+            </a>
+          </figure>
+          <figcaption>
+            An example instance is a copy of the blog I've been writing off and
+            on for more than twenty years. You can find that hosted on GitHub
+            Pages at
+            <a href="https://eobrain.github.io/mysimplestblog/"
+              >mysimplestblog</a
+            >. (The export from another version of this blog broke a few images
+            and links that I still need to fix.)
+          </figcaption>
+        </aside>
+      </section>
+    </article>
   </body>
 </html>
